@@ -1,0 +1,37 @@
+[data-fls-ripple] {
+	position: relative;
+	overflow: hidden;
+	// background-color: #333;
+	padding: 15px;
+	display: inline-flex;
+background-color:$amberColor;
+color: $creamColor;	
+border-radius: 5.902px;
+width: 210px;
+height: 66px;
+padding: 18.887px 37.947px 19.113px 39.053px;
+justify-content: center;
+line-height: 1.25;
+text-transform: uppercase;
+align-items: center;
+transition:background-color ease 0.5s ;
+@include adaptiveValue("font-size",22.429px ,16 );
+}
+.--ripple {
+	position: absolute;
+	border-radius: 50%;
+	// background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgb(139, 85, 4, 0.3);
+	
+
+	animation: button-circle 1.5s ease forwards;
+}
+@keyframes button-circle {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(10);
+		opacity: 0;
+	}
+}

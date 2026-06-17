@@ -1,0 +1,17 @@
+@font-face { 
+	font-family: "iconfont"; 
+	font-display: swap;
+	src: url("D://Front-end/Portfolio/Vin Rouge/src/assets/svgicons/preview/iconfont.woff2?84ef5e0f889b87c44b10e8b592bcbd9f") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
+}
+	[class*="--icon-icon _heart"]::before { 
+		content: "\f101"; 
+	} 
+	[class*="--icon-icon _cart"]::before { 
+		content: "\f102"; 
+	} 
+	[class*="--icon-arrow"]::before { 
+		content: "\f103"; 
+	} 

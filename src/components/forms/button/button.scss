@@ -1,0 +1,74 @@
+//<BUTTONS (a.btn+tab)>
+// Сніппет (HTML): btn
+.button {
+    position: relative;
+    z-index: 15;
+    display: inline-flex;
+    background-color: $amberColor;
+    color: $creamColor;
+    border-radius: 5.902px;
+    width: 210px;
+    height: 66px;
+    padding: 18.887px 37.947px 19.113px 39.053px;
+    justify-content: center;
+    line-height: 1.25;
+    text-transform: uppercase;
+    align-items: center;
+    transition: background-color ease 0.5s;
+    @include adaptiveValue('font-size', 22.429px, 16);
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #8b5504;
+        }
+    }
+    &--wide {
+        padding: 18.887px 68.95px 19.113px 70.05px;
+    }
+    &--transparent {
+        position: relative;
+        z-index: 15;
+        height: auto;
+        max-width: 119px;
+        background-color: transparent;
+        padding-block: 7px;
+        padding-inline: 0px;
+        border-top: 1px solid $amberColor;
+        border-bottom: 1px solid $amberColor;
+        border-radius: 0px;
+        color: $darkCocoaColor;
+        transition: all ease 0.5s;
+        @include adaptiveValue('font-size', 20, 16);
+        @media (any-hover: hover) {
+            &:hover {
+                background-color: #8b5504;
+                color: $creamColor;
+            }
+        }
+    }
+    &--hero {
+        width: 372px;
+        height: 66px;
+        background-color: transparent;
+        border-top: 1.18px solid $amberColor;
+        border-bottom: 1.18px solid $amberColor;
+        border-radius: 0px;
+        color: $darkCocoaColor;
+        line-height: 1;
+        @include adaptiveValue('padding-block', 18, 10);
+        @include adaptiveValue('padding-inline', 67, 5);
+        transition: all ease 0.5s;
+        @media (any-hover: hover) {
+            &:hover {
+                background-color: #8b5504;
+                color: $creamColor;
+            }
+        }
+        @media (max-width: toEm(800)) {
+            width: 100%;
+            padding-inline: 0;
+        }
+        @media (max-width: toEm($tablet)) {
+            width: 70%;
+        }
+    }
+}

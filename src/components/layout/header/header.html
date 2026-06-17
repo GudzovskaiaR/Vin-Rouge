@@ -1,0 +1,19 @@
+<header data-fls-header class="header">
+    <div class="header__container">
+       
+        <div class="header__logo">
+            <img src="@img/logo/logo.png" alt="logo vin rouge" />
+        </div>
+        <include src="@components/layout/menu/menu.html" locals='{"active":"[[active]]"}'></include>
+        <div class="header__actions">
+            <button class=" header-btn header-btn--user ">
+                <img src="@img/header-icons/user-icon.svg" alt="user icon" />
+            </button>
+            <button class=" header-btn header-btn--cart">
+				<img src="@img/header-icons/cart-icon.svg" alt="cart icon">
+			</button>
+			<div class="btn-burger header-btn"> <button type="button header-btn" data-fls-menu class="menu__icon icon-menu"><span></span></button></div>
+          
+        </div>
+    </div>
+</header>
