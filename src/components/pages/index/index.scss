@@ -1,5 +1,5 @@
 .hero {
-    background: $creamColor2 url('@img/hero images/hero-background.png')
+    background: $creamColor2 url('@img/hero-images/hero-background.png')
         no-repeat bottom left / contain;
     @include adaptiveValue('padding-top', 182, 140);
 
