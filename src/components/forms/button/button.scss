@@ -56,7 +56,7 @@
         line-height: 1;
         @include adaptiveValue('padding-block', 18, 10);
         @include adaptiveValue('padding-inline', 67, 5);
-        transition: all ease 0.5s;
+        transition: all ease 0.8s;
         @media (any-hover: hover) {
             &:hover {
                 background-color: #8b5504;
