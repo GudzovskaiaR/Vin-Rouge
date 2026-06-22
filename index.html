@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="/vin-rouge/assets/fonts/Brand.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<!-- <link rel="shortcut icon" href="@img/favicon.ico"> -->
+		<title>Vin Rouge</title>
+		<script type="module" crossorigin="" src="/vin-rouge/js/index.min.js?v=1782133503295"></script>
+		<link rel="modulepreload" crossorigin="" href="/vin-rouge/js/common.min.js?v=1782133503295">
+		<link rel="stylesheet" crossorigin="" href="/vin-rouge/css/index.min.css?v=1782133503295">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="/vin-rouge/assets/img/logo/logo.png" alt="logo vin rouge">
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Shop</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Events</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Blog</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div class="header__actions">
+						<button class="header-btn header-btn--user">
+							<img src="/vin-rouge/assets/img/header-icons/user-icon.svg" alt="user icon">
+						</button>
+						<button class="header-btn header-btn--cart">
+							<img src="/vin-rouge/assets/img/header-icons/cart-icon.svg" alt="cart icon">
+						</button>
+						<div class="btn-burger header-btn">
+							<button type="button header-btn" data-fls-menu="" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-index="" class="index">
+					<section class="hero">
+						<div class="hero__container">
+							<div data-fls-parallax-parent="" class="hero__content">
+								<div class="hero__label">WINEMAKING TRADITION</div>
+								<h1 data-fls-parallax="" data-fls-parallax-coefficient="6" data-fls-parallax-direction="-" class="hero__title">Wines from all over the world</h1>
+								<p data-fls-parallax="" data-fls-parallax-coefficient="10" data-fls-parallax-direction="-" class="hero__text">
+									Nunc morbi purus purus nisl, amet. Non eleifend aliquam nibh
+                    ultrices platea platea enim tellus, tincid.
+								</p>
+								<a class="button button--hero" data-fls-button="">SEE HOW IT MADE</a>
+							</div>
+							<div class="hero__image">
+								<img src="/vin-rouge/assets/img/hero-images/Artwork.png" alt="bottle of wine">
+							</div>
+						</div>
+					</section>
+					<section class="keyparts">
+						<div class="keyparts__container">
+							<div data-fls-infoabout="" class="infoabout">
+								<div class="infoabout__number">01.</div>
+								<div class="infoabout__description">
+									<h4 class="infoabout__title">VINEYARD</h4>
+									<a href="#" class="infoabout__link">Visit and take a tour</a>
+								</div>
+							</div>
+							<div data-fls-infoabout="" class="infoabout">
+								<div class="infoabout__number">02.</div>
+								<div class="infoabout__description">
+									<h4 class="infoabout__title">PRODUCT</h4>
+									<a href="#" class="infoabout__link">Old family recipes</a>
+								</div>
+							</div>
+							<div data-fls-infoabout="" class="infoabout">
+								<div class="infoabout__number">03.</div>
+								<div class="infoabout__description">
+									<h4 class="infoabout__title">HISTORY</h4>
+									<a href="#" class="infoabout__link">Meet a tradition that lasts</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="history">
+						<div class="history__container">
+							<div class="history__content">
+								<div class="title__block block-title block-title--left">
+									<p class="block-title__subtitle">Augue sed nec</p>
+									<h2>OUR HISTOrY</h2>
+									<p class="block-title__text block-title__text--left">
+										Mattis aliquam malesuada euismod augue posuere
+                        venenatis. Maecenas faucibus dui vitae tellus et mi. Ut
+                        augue mattis augue dui et amet. Fringilla vestibulum
+                        dui, condimentum tristique duis.
+									</p>
+									<p class="block-title__text block-title__text--left">
+										Phasellus ut sem montes, aliquam morbi accumsan nam
+                        aenean. Augue ut congue tincidunt eget commodo,
+                        tincidunt viverra.
+									</p>
+									<button class="button" data-fls-button="">see more</button>
+								</div>
+							</div>
+							<div class="history__image image-history">
+								<div class="image-history__landscape">
+									<img src="/vin-rouge/assets/img/history/landscape.png" alt="Tuscany landscape">
+								</div>
+								<div class="image-history__vineyard">
+									<img src="/vin-rouge/assets/img/history/vineyard.jpg" alt="vineyard">
+								</div>
+								<p class="image-history__text">Ut augue mattis augue dui et amet</p>
+							</div>
+						</div>
+					</section>
+					<section class="vineCards">
+						<article class="wine-card wine-card--two-img">
+							<div class="wine-card__content content">
+								<p class="content__subtitle">LOREMIS</p>
+								<h3 class="content__title">WINE GLASS</h3>
+								<p class="content__text">Lorem ipsum malesu.</p>
+							</div>
+							<div class="wine-card__image">
+								<img src="/vin-rouge/assets/img/wine-card/wine.png" alt="bottle of wine">
+							</div>
+						</article>
+						<article class="wine-card">
+							<div class="wine-card__content content">
+								<p class="content__subtitle">LOREMIS</p>
+								<h3 class="content__title">TASTING DAY</h3>
+								<p class="content__text">Lorem ipsum malesu.</p>
+							</div>
+							<div class="wine-card__image">
+								<img src="/vin-rouge/assets/img/wine-card/glass%20of%20wine.png" alt="glass of wine">
+							</div>
+						</article>
+						<article class="wine-card">
+							<div class="wine-card__content content">
+								<p class="content__subtitle">LOREMIS</p>
+								<h3 class="content__title">BEST HARVEST</h3>
+								<p class="content__text">Lorem ipsum malesu.</p>
+							</div>
+							<div class="wine-card__image">
+								<img src="/vin-rouge/assets/img/wine-card/grape.png" alt="grape">
+							</div>
+						</article>
+						<article class="wine-card">
+							<div class="wine-card__content content">
+								<p class="content__subtitle">LOREMIS</p>
+								<h3 class="content__title">OUR PACKAGE</h3>
+								<p class="content__text">Lorem ipsum malesu.</p>
+							</div>
+							<div class="wine-card__image">
+								<img src="/vin-rouge/assets/img/wine-card/packaging.png" alt="packaging">
+							</div>
+						</article>
+					</section>
+					<div data-fls-photopresentation="" class="photoPresentation">
+						<div class="photoPresentation__body">
+							<h5 class="photoPresentation__title">WINEMAKING</h5>
+							<p class="photoPresentation__text">Lorem ipsum malesu.</p>
+						</div>
+					</div>
+					<section class="bestSpirit">
+						<div class="bestSpirit__content">
+							<div class="title__block block-title">
+								<p class="block-title__subtitle">Augue sed nec</p>
+								<h2>OuR BEST SPIRIT</h2>
+								<p class="block-title__text">
+									Mattis aliquam malesuada euismod augue posuere venenatis.
+                    Maecenas faucibus dui vitae tellus et mi.
+								</p>
+							</div>
+						</div>
+						<!-- Оболонка слайдера -->
+						<div data-fls-slider="" class="bestSpirit__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="bestSpirit__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--cognac">
+										<div class="wine-item__title">
+											<h4 class="wine-name">BELASCO LLAMA COGNAC</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--sauvignon">
+										<div class="wine-item__title">
+											<h4 class="wine-name">NEW CABERNET SAUVIGNON</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--chardonnay">
+										<div class="wine-item__title">
+											<h4 class="wine-name">LUCTUSON CHARDONNAY</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--cognac">
+										<div class="wine-item__title">
+											<h4 class="wine-name">BELASCO LLAMA COGNAC</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--sauvignon">
+										<div class="wine-item__title">
+											<h4 class="wine-name">NEW CABERNET SAUVIGNON</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="bestSpirit__slide swiper-slide">
+									<article class="wine-item wine-item--chardonnay">
+										<div class="wine-item__title">
+											<h4 class="wine-name">LUCTUSON CHARDONNAY</h4>
+											<p class="wine-subtitle">Lorem ipsum malesu.</p>
+										</div>
+										<div class="wine-info">
+											<div class="wine-info__cost">
+												<p class="wine-availability">IN STOCK</p>
+												<p class="wine-price">99.00$</p>
+											</div>
+											<div class="wine-info__actions">
+												<button class="wine__btn wine__btn--like wine__btn--icon-icon _heart"></button>
+												<button class="wine__btn wine__btn--cart wine__btn--icon-icon _cart"></button>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="control-block">
+							<button type="button" class="swiper-button-prev"></button>
+							<div class="swiper-pagination"></div>
+							<button type="button" class="swiper-button-next"></button>
+						</div>
+					</section>
+					<section class="reviews">
+						<div class="reviews__container">
+							<!-- Оболонка слайдера -->
+							<div class="reviews__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="reviews__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="reviews__slide swiper-slide">
+										<div data-fls-reviews-item="" class="reviews-item">
+											<div class="review__content content-review">
+												<div class="content-review__decor">
+													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+												</div>
+												<p class="content-review__text">
+													Mattis aliquam malesuada euismod augue
+                                    posuere venenatis. Maecenas faucibus dui
+                                    vitae tellus et mi. Ut augue mattis augue
+                                    dui et amet.
+												</p>
+												<h4 class="content-review__title">VINCENT FROST</h4>
+												<h6 class="content-review__subtitle">Lorem ipsum malesu.</h6>
+											</div>
+											<div class="review__image image-review">
+												<div class="image-review__ellipse">
+													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+												</div>
+												<div class="image-review__img">
+													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Слайд -->
+									<div class="reviews__slide swiper-slide">
+										<div data-fls-reviews-item="" class="reviews-item">
+											<div class="review__content content-review">
+												<div class="content-review__decor">
+													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+												</div>
+												<p class="content-review__text">
+													Mattis aliquam malesuada euismod augue
+                                    posuere venenatis. Maecenas faucibus dui
+                                    vitae tellus et mi. Ut augue mattis augue
+                                    dui et amet.
+												</p>
+												<h4 class="content-review__title">VINCENT FROST</h4>
+												<h6 class="content-review__subtitle">Lorem ipsum malesu.</h6>
+											</div>
+											<div class="review__image image-review">
+												<div class="image-review__ellipse">
+													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+												</div>
+												<div class="image-review__img">
+													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Слайд -->
+									<div class="reviews__slide swiper-slide">
+										<div data-fls-reviews-item="" class="reviews-item">
+											<div class="review__content content-review">
+												<div class="content-review__decor">
+													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+												</div>
+												<p class="content-review__text">
+													Mattis aliquam malesuada euismod augue
+                                    posuere venenatis. Maecenas faucibus dui
+                                    vitae tellus et mi. Ut augue mattis augue
+                                    dui et amet.
+												</p>
+												<h4 class="content-review__title">VINCENT FROST</h4>
+												<h6 class="content-review__subtitle">Lorem ipsum malesu.</h6>
+											</div>
+											<div class="review__image image-review">
+												<div class="image-review__ellipse">
+													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+												</div>
+												<div class="image-review__img">
+													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Якщо потрібна пагінація -->
+								<div class="swiper-pagination"></div>
+								<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+								<button type="button" class="swiper-button-prev"></button>
+								<button type="button" class="swiper-button-next"></button>
+								<!-- Якщо потрібен скролбар -->
+								<div class="swiper-scrollbar"></div>
+							</div>
+						</div>
+					</section>
+					<section class="naturalAuroma">
+						<div class="naturalAuroma__container">
+							<div class="title__block block-title">
+								<p class="block-title__subtitle">Augue sed nec</p>
+								<h2>NaTURal AUrOMA</h2>
+							</div>
+							<div class="naturalAuroma__images">
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/01.jpg" alt="Hands picking grapes in a vineyard">
+								</div>
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/02.jpg" alt="A woman walking through a vineyard">
+								</div>
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/03.jpg" alt="Hanging bunches of grapes">
+								</div>
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/04.jpg" alt="Wine bottles standing on a wine barrel">
+								</div>
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/05.jpg" alt="Hands holding grapes">
+								</div>
+								<div class="image-naturalAuroma__wrapper">
+									<img src="/vin-rouge/assets/img/naturalAuroma/06.jpg" alt="People clinking wine glasses">
+								</div>
+							</div>
+							<div class="naturalAuroma__content">
+								<div class="wine-attributes">
+									<div class="wine-attribute">
+										<div class="wine-attribute__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="70" height="100" viewbox="0 0 70 100" fill="none">
+												<path d="M26.4484 99.082H1.06189C0.84656 99.082 0.640002 98.9965 0.487744 98.8442C0.335486 98.6919 0.25 98.4854 0.25 98.2701V54.753C0.249981 54.6446 0.272032 54.5372 0.314901 54.4376L8.62857 34.66V1.06189C8.62857 0.84656 8.71417 0.640059 8.86643 0.4878C9.01869 0.335542 9.22513 0.25 9.44046 0.25H18.0743C18.2897 0.25 18.4962 0.335542 18.6485 0.4878C18.8007 0.640059 18.8862 0.84656 18.8862 1.06189V34.66L27.1999 54.4376C27.2428 54.5372 27.2649 54.6446 27.2649 54.753V98.2887C27.26 98.5016 27.1717 98.704 27.019 98.8524C26.8663 99.0008 26.6613 99.0833 26.4484 99.082ZM1.85984 97.4582H25.6226V54.9154L17.3089 35.1379C17.266 35.0382 17.2439 34.9309 17.2439 34.8224V1.88304H10.2385V34.8224C10.2385 34.9309 10.2164 35.0382 10.1735 35.1379L1.85984 54.9154V97.4582Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M52.7024 99.0822H43.5907C43.3754 99.0822 43.1689 98.9967 43.0166 98.8444C42.8643 98.6922 42.7789 98.4856 42.7789 98.2703C42.7789 98.055 42.8643 97.8485 43.0166 97.6962C43.1689 97.544 43.3754 97.4584 43.5907 97.4584H51.9137V75.4215C48.2976 73.5869 44.8087 71.5115 41.4705 69.2095C37.9957 66.8156 34.4188 61.8561 37.1142 51.8166C38.5385 46.5045 41.7907 38.033 41.8231 37.9495C41.8815 37.7964 41.9851 37.6647 42.1202 37.5719C42.2553 37.479 42.4155 37.4295 42.5794 37.4299H52.7256C52.9409 37.4299 53.1475 37.5155 53.2997 37.6677C53.452 37.82 53.5375 38.0265 53.5375 38.2418C53.5375 38.4571 53.452 38.6636 53.2997 38.8159C53.1475 38.9682 52.9409 39.0537 52.7256 39.0537H43.1268C42.4031 40.9698 39.8792 47.7618 38.6684 52.2387C37.3183 57.2724 36.8636 64.0737 42.3798 67.8733C45.7815 70.2285 49.3475 72.337 53.0503 74.1828C53.1898 74.2477 53.3076 74.3513 53.3899 74.4813C53.4721 74.6112 53.5153 74.7621 53.5143 74.9158V98.3028C53.5059 98.5124 53.4167 98.7107 53.2653 98.856C53.1139 99.0013 52.9122 99.0824 52.7024 99.0822Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M52.7023 75.7136C52.5182 75.7133 52.3396 75.6505 52.1959 75.5354C52.0522 75.4203 51.9519 75.2597 51.9114 75.0801C51.8709 74.9004 51.8928 74.7124 51.9732 74.5468C52.0537 74.3812 52.1881 74.2478 52.3544 74.1687C56.0564 72.3212 59.6222 70.2128 63.0249 67.8592C68.5364 64.0595 68.0864 57.2583 66.7364 52.2246C65.5348 47.7476 63.0249 40.9556 62.278 39.0395H52.6977C52.4824 39.0395 52.2759 38.954 52.1237 38.8017C51.9714 38.6495 51.8858 38.443 51.8858 38.2277C51.8858 38.0123 51.9714 37.8058 52.1237 37.6536C52.2759 37.5013 52.4824 37.4158 52.6977 37.4158H62.8393C63.0039 37.4151 63.1648 37.4644 63.3007 37.5572C63.4366 37.65 63.5409 37.7819 63.6002 37.9354C63.6326 38.0189 66.8802 46.4903 68.3045 51.8024C71 61.8419 67.423 66.806 63.9527 69.1953C60.4746 71.5981 56.8297 73.7501 53.0456 75.6347C52.9378 75.6843 52.821 75.7112 52.7023 75.7136Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M61.8326 99.082H52.7023C52.487 99.082 52.2806 98.9965 52.1283 98.8442C51.976 98.692 51.8904 98.4855 51.8904 98.2701C51.8904 98.0548 51.976 97.8483 52.1283 97.6961C52.2806 97.5438 52.487 97.4583 52.7023 97.4583H61.8326C62.048 97.4583 62.2544 97.5438 62.4067 97.6961C62.5589 97.8483 62.6445 98.0548 62.6445 98.2701C62.6445 98.4855 62.5589 98.692 62.4067 98.8442C62.2544 98.9965 62.048 99.082 61.8326 99.082Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M18.0743 11.8621H6.0769C5.86157 11.8621 5.65513 11.7765 5.50287 11.6243C5.35061 11.472 5.26501 11.2655 5.26501 11.0502C5.26501 10.8348 5.35061 10.6283 5.50287 10.4761C5.65513 10.3238 5.86157 10.2383 6.0769 10.2383H18.0743C18.2896 10.2383 18.4962 10.3238 18.6484 10.4761C18.8007 10.6283 18.8862 10.8348 18.8862 11.0502C18.8862 11.2655 18.8007 11.472 18.6484 11.6243C18.4962 11.7765 18.2896 11.8621 18.0743 11.8621Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M6.1792 90.7592C5.96387 90.7592 5.75731 90.6736 5.60505 90.5214C5.4528 90.3691 5.36731 90.1626 5.36731 89.9473V67.1774C5.36731 66.962 5.4528 66.7555 5.60505 66.6033C5.75731 66.451 5.96387 66.3655 6.1792 66.3655C6.39452 66.3655 6.60097 66.451 6.75322 66.6033C6.90548 66.7555 6.99108 66.962 6.99108 67.1774V89.9473C6.99108 90.1626 6.90548 90.3691 6.75322 90.5214C6.60097 90.6736 6.39452 90.7592 6.1792 90.7592Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M41.9763 59.1511C41.7609 59.1511 41.5544 59.0656 41.4021 58.9133C41.2499 58.7611 41.1644 58.5546 41.1644 58.3393C41.1644 53.4819 44.9315 43.5258 45.0939 43.1037C45.1708 42.9025 45.3245 42.7401 45.5211 42.6522C45.7177 42.5643 45.9412 42.5582 46.1424 42.6351C46.3436 42.712 46.506 42.8656 46.5939 43.0623C46.6817 43.2589 46.6879 43.4824 46.611 43.6836C46.5738 43.781 42.7881 53.7788 42.7881 58.3393C42.7881 58.5546 42.7025 58.7611 42.5503 58.9133C42.398 59.0656 42.1916 59.1511 41.9763 59.1511Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+											</svg>
+										</div>
+										<div class="wine-attribute__description">
+											<div class="wine-item__title--no-margin">
+												<h4 class="wine-name">WINE GLASS</h4>
+												<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+											</div>
+										</div>
+									</div>
+									<div class="wine-attribute">
+										<div class="wine-attribute__icon">
+											<svg viewbox="0 0 88 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M65.9436 95.3727C65.806 95.3738 65.6705 95.3379 65.5513 95.269C65.4322 95.2 65.3337 95.1004 65.2661 94.9805C65.2151 94.8915 65.1821 94.7934 65.169 94.6917C65.156 94.59 65.1631 94.4867 65.19 94.3878C65.2169 94.2888 65.2632 94.1961 65.326 94.1151C65.3887 94.034 65.4668 93.966 65.5558 93.9152L75.1969 88.4105L68.2748 76.2956C62.9618 76.566 57.6367 76.4781 52.3356 76.0327C46.9557 75.5869 39.8241 72.3198 36.4277 59.3937C34.6136 52.485 32.8217 40.8292 32.8039 40.7134C32.7791 40.5578 32.8026 40.3983 32.8711 40.2565C32.9396 40.1147 33.0499 39.9972 33.1872 39.9199L44.6468 33.3678C44.7347 33.2995 44.8362 33.2508 44.9444 33.2249C45.0527 33.1991 45.1652 33.1967 45.2745 33.218C45.3838 33.2392 45.4872 33.2837 45.5779 33.3482C45.6686 33.4128 45.7444 33.496 45.8002 33.5923C45.856 33.6886 45.8907 33.7957 45.9017 33.9065C45.9127 34.0172 45.8999 34.1291 45.8641 34.2345C45.8283 34.3399 45.7704 34.4364 45.6942 34.5175C45.618 34.5987 45.5253 34.6626 45.4224 34.7049L34.4264 40.9897C34.7963 43.3387 36.3608 52.9842 37.9386 58.9792C39.6859 65.6294 43.6261 73.7149 52.4649 74.4592C57.8487 74.9222 63.2588 74.9996 68.6537 74.691C68.8003 74.6797 68.9472 74.7101 69.0773 74.7788C69.2074 74.8474 69.3155 74.9514 69.3891 75.0788L76.9575 88.3124C77.06 88.4923 77.0872 88.7054 77.0332 88.9052C76.9776 89.1043 76.8465 89.2738 76.6678 89.3777L66.3492 95.2702C66.2258 95.3407 66.0856 95.3761 65.9436 95.3727Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M68.7116 76.2648C68.5524 76.2655 68.3967 76.2173 68.2659 76.1266C68.0963 76.0079 67.9805 75.8269 67.9438 75.6232C67.907 75.4195 67.9524 75.2095 68.0698 75.039C71.076 70.5487 73.7572 65.8492 76.0928 60.9764C79.9395 52.98 74.974 45.483 70.1334 40.6023C65.7698 36.2029 58.2548 29.9583 56.4184 28.4428L45.4224 34.7231C45.2479 34.7949 45.0534 34.801 44.8747 34.7404C44.6961 34.6797 44.5454 34.5564 44.4508 34.3932C44.3561 34.23 44.3239 34.038 44.3599 33.8528C44.3959 33.6676 44.4979 33.5017 44.6469 33.3859L56.1109 26.8382C56.2489 26.7573 56.4084 26.7207 56.5678 26.7334C56.7273 26.7462 56.879 26.8077 57.0024 26.9095C57.096 26.9853 66.2244 34.4468 71.2656 39.5191C80.6793 49.0131 79.8636 56.8044 77.5058 61.6717C75.1375 66.6165 72.4144 71.3833 69.3579 75.9349C69.2855 76.0387 69.1886 76.1231 69.0759 76.1806C68.9632 76.2381 68.8381 76.267 68.7116 76.2648Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M76.2621 89.4801C76.09 89.4803 75.9226 89.4236 75.786 89.3188C75.6495 89.214 75.5514 89.067 75.5071 88.9006C75.4629 88.7342 75.4749 88.5579 75.5413 88.3991C75.6077 88.2402 75.7249 88.1078 75.8744 88.0225L86.1929 82.1256C86.2808 82.0573 86.3823 82.0086 86.4905 81.9827C86.5988 81.9569 86.7114 81.9545 86.8207 81.9758C86.9299 81.9971 87.0334 82.0415 87.1241 82.106C87.2147 82.1706 87.2905 82.2538 87.3464 82.3501C87.4022 82.4464 87.4368 82.5535 87.4478 82.6643C87.4588 82.775 87.446 82.8869 87.4102 82.9923C87.3744 83.0977 87.3165 83.1942 87.2403 83.2753C87.1641 83.3565 87.0714 83.4204 86.9685 83.4628L76.6499 89.3597C76.5327 89.4313 76.3994 89.4727 76.2621 89.4801Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M13.5218 40.7581C13.4079 40.7585 13.2954 40.7342 13.1919 40.6868C13.0989 40.6441 13.0153 40.5834 12.9458 40.5082C12.8763 40.433 12.8223 40.3448 12.7871 40.2486C12.7519 40.1525 12.7361 40.0503 12.7405 39.948C12.745 39.8458 12.7697 39.7454 12.8131 39.6527C13.9453 37.2056 16.4814 35.8997 18.5629 35.0305L19.5035 34.6516C21.3532 33.9028 23.1049 33.1986 24.4065 31.897C25.0604 31.2213 25.5587 30.4109 25.8667 29.5224C26.1747 28.6339 26.2848 27.6889 26.1894 26.7534C26.0022 24.9705 24.9993 23.7492 23.8359 22.3541L23.1985 21.5829C22.1822 20.3126 21.1749 18.9977 20.2032 17.7274C19.5257 16.836 18.8661 15.9445 18.1663 15.0887L7.54015 1.53419C7.47694 1.45341 7.43021 1.36097 7.40271 1.26215C7.37522 1.16334 7.36755 1.06007 7.37997 0.958248C7.39239 0.85643 7.42464 0.758063 7.47508 0.668747C7.52552 0.579431 7.59312 0.500925 7.67389 0.437709C7.75467 0.374493 7.84712 0.327803 7.94594 0.30031C8.04476 0.272818 8.14795 0.265055 8.24977 0.277472C8.35159 0.289889 8.45002 0.32224 8.53934 0.372676C8.62865 0.423111 8.70715 0.490645 8.77036 0.571421L19.3876 14.1304C20.074 15.0219 20.7514 15.9133 21.4334 16.778C22.4006 18.0439 23.3991 19.3499 24.4065 20.6024L25.026 21.3556C26.2428 22.8131 27.4953 24.3197 27.7316 26.5885C27.8496 27.7533 27.7113 28.9299 27.3263 30.0356C26.9413 31.1414 26.3189 32.1494 25.5029 32.9891C23.9964 34.5268 22.0084 35.3247 20.0918 36.1091L19.1647 36.488C17.3462 37.2413 15.1532 38.3645 14.2305 40.3213C14.1666 40.4543 14.0658 40.5661 13.9402 40.6435C13.8146 40.7209 13.6693 40.7607 13.5218 40.7581Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M5.77505 35.9042C5.31546 35.9038 4.85754 35.8484 4.4111 35.7393C3.61906 35.5456 2.88077 35.176 2.25114 34.6579C1.62151 34.1398 1.11669 33.4865 0.77413 32.7466C0.431566 32.0066 0.260154 31.199 0.27247 30.3837C0.284787 29.5684 0.480539 28.7664 0.845298 28.0371C0.88837 27.9413 0.950394 27.8552 1.02757 27.7839C1.10475 27.7126 1.19546 27.6577 1.2944 27.6223C1.39333 27.587 1.49836 27.572 1.60323 27.5783C1.70809 27.5846 1.81064 27.612 1.90466 27.6588C1.99868 27.7057 2.08234 27.771 2.15048 27.851C2.21862 27.931 2.26984 28.0239 2.3012 28.1241C2.33255 28.2244 2.34331 28.33 2.33286 28.4345C2.32242 28.539 2.29105 28.6404 2.24048 28.7325C1.97919 29.2521 1.8385 29.824 1.82903 30.4056C1.81956 30.9871 1.94151 31.5633 2.18574 32.0912C2.42997 32.619 2.79017 33.085 3.23955 33.4542C3.68893 33.8235 4.21589 34.0866 4.78109 34.2238C7.00972 34.7676 9.31406 33.3323 11.2886 31.8392C13.4771 30.1944 15.9375 28.3402 18.866 28.5943C18.9681 28.6031 19.0676 28.6319 19.1586 28.6791C19.2496 28.7263 19.3303 28.7909 19.3963 28.8694C19.4624 28.9478 19.5123 29.0385 19.5433 29.1362C19.5742 29.2339 19.5857 29.3368 19.5769 29.4389C19.5681 29.5411 19.5393 29.6405 19.4921 29.7315C19.4449 29.8225 19.3803 29.9033 19.3019 29.9693C19.2235 30.0354 19.1328 30.0853 19.0351 30.1162C18.9373 30.1472 18.8345 30.1586 18.7323 30.1499C16.4146 29.9493 14.3063 31.5405 12.2559 33.0783C10.3259 34.518 8.11511 35.9042 5.77505 35.9042Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M43.4924 60.5349C43.3311 60.5342 43.1739 60.4837 43.0423 60.3904C42.9107 60.2971 42.8111 60.1655 42.757 60.0134C40.359 53.2741 38.6697 43.584 38.6563 43.4859C38.6209 43.282 38.6678 43.0724 38.7869 42.9031C38.906 42.7338 39.0876 42.6188 39.2915 42.5833C39.4954 42.5479 39.7051 42.5949 39.8743 42.714C40.0436 42.8331 40.1586 43.0146 40.1941 43.2185C40.1941 43.3166 41.8745 52.8774 44.2279 59.492C44.268 59.6098 44.2796 59.7354 44.2619 59.8586C44.2441 59.9818 44.1974 60.099 44.1257 60.2007C44.054 60.3024 43.9593 60.3857 43.8492 60.4438C43.7391 60.5019 43.6168 60.5331 43.4924 60.5349Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+												<path d="M44.9143 68.8611C43.3243 68.8631 41.7456 68.5918 40.2475 68.0588C40.0723 68.0004 39.9236 67.8817 39.8278 67.7238C39.7319 67.566 39.6951 67.3793 39.7239 67.1969C39.7528 67.0145 39.8455 66.8482 39.9854 66.7278C40.1254 66.6073 40.3035 66.5404 40.4882 66.5389C40.5778 66.5381 40.6669 66.5532 40.7512 66.5835C42.3793 67.1723 44.1144 67.4061 45.8403 67.2693C47.5661 67.1324 49.2428 66.6281 50.7577 65.7901C53.1959 64.3949 55.01 62.251 56.9311 59.9956C58.1815 58.4414 59.5462 56.9828 61.0139 55.632C64.2395 52.8176 68.2758 51.1007 72.5404 50.729C74.3626 50.5787 76.1968 50.6792 77.9916 51.0276C78.0923 51.0469 78.1882 51.0859 78.2738 51.1423C78.3594 51.1987 78.433 51.2713 78.4906 51.3562C78.5481 51.441 78.5884 51.5364 78.6091 51.6368C78.6298 51.7372 78.6305 51.8407 78.6111 51.9414C78.5918 52.0421 78.5529 52.1379 78.4966 52.2235C78.4402 52.3092 78.3675 52.3829 78.2826 52.4404C78.1978 52.4979 78.1024 52.5382 78.002 52.5589C77.9016 52.5795 77.7981 52.5802 77.6974 52.5609C76.0437 52.2377 74.3532 52.1447 72.674 52.2846C68.741 52.6262 65.0184 54.209 62.0435 56.8042C60.637 58.1065 59.3275 59.5098 58.1256 61.003C56.2001 63.2762 54.2121 65.6296 51.5378 67.1629C49.5144 68.2934 47.232 68.8786 44.9143 68.8611Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.543652"></path>
+											</svg>
+										</div>
+										<div class="wine-attribute__description">
+											<div class="wine-item__title wine-item__title--no-margin">
+												<h4 class="wine-name">fine smell</h4>
+												<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+											</div>
+										</div>
+									</div>
+									<div class="wine-attribute">
+										<div class="wine-attribute__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="94" height="71" viewbox="0 0 94 71" fill="none">
+												<path d="M47.2357 70.5374C47.0796 70.5367 46.9274 70.4885 46.7993 70.3992C46.6711 70.3099 46.5733 70.1838 46.5186 70.0375C46.1708 69.0595 45.8665 68.0684 45.6144 67.06C42.7064 59.0316 36.3342 52.2376 27.7494 48.1256C27.6531 48.0866 27.5658 48.0283 27.4929 47.9543C27.42 47.8803 27.363 47.7921 27.3255 47.6953C27.288 47.5984 27.2708 47.4949 27.2748 47.3911C27.2788 47.2873 27.304 47.1854 27.3489 47.0917C27.3938 46.998 27.4575 46.9145 27.5359 46.8464C27.6143 46.7783 27.7058 46.7269 27.8048 46.6955C27.9038 46.6641 28.0082 46.6532 28.1116 46.6637C28.2149 46.6742 28.315 46.7057 28.4057 46.7564C35.517 50.1599 41.1764 55.3412 44.7277 61.5353C44.2451 55.4472 45.5073 49.3478 48.3665 43.9512C51.2256 38.5547 55.5633 34.0847 60.8715 31.0646C60.9572 30.998 61.0562 30.9505 61.1617 30.9253C61.2673 30.9001 61.3771 30.8978 61.4836 30.9186C61.5902 30.9393 61.6911 30.9826 61.7795 31.0456C61.8679 31.1086 61.9418 31.1897 61.9963 31.2836C62.0507 31.3775 62.0846 31.482 62.0953 31.59C62.106 31.698 62.0935 31.8071 62.0586 31.9098C62.0237 32.0126 61.9672 32.1068 61.8929 32.1859C61.8186 32.2651 61.7282 32.3273 61.6278 32.3687C55.792 35.694 51.2078 40.8417 48.5784 47.0223C45.9489 53.203 45.4193 60.0756 47.0706 66.5862C47.4183 67.5642 47.7227 68.5596 47.9748 69.568C48.021 69.7569 47.9931 69.9563 47.8969 70.1252C47.8007 70.2942 47.6434 70.4199 47.4574 70.4765C47.3877 70.5097 47.3126 70.5303 47.2357 70.5374Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M36.182 52.6071C35.836 52.6078 35.4904 52.5845 35.1475 52.5375C35.0431 52.5315 34.941 52.5039 34.8476 52.4565C34.7543 52.4092 34.6719 52.3432 34.6053 52.2625C34.5387 52.1818 34.4893 52.0882 34.4605 51.9876C34.4317 51.887 34.424 51.7816 34.4378 51.6779C34.4516 51.5742 34.4865 51.4744 34.5406 51.3849C34.5947 51.2953 34.6668 51.2179 34.7521 51.1574C34.8375 51.0969 34.9344 51.0547 35.0369 51.0334C35.1393 51.0121 35.2451 51.0122 35.3475 51.0336C36.5957 51.1802 37.8605 50.9917 39.0117 50.4875C40.163 49.9833 41.1593 49.1815 41.898 48.1647C42.0195 48.0163 42.1925 47.9194 42.3825 47.8931C42.5724 47.8669 42.7653 47.9134 42.9224 48.0233C43.0796 48.1332 43.1894 48.2983 43.23 48.4858C43.2705 48.6732 43.2388 48.869 43.1412 49.034C42.3427 50.1337 41.2967 51.0301 40.0878 51.6508C38.8789 52.2715 37.5409 52.5991 36.182 52.6071Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M20.951 68.0681C19.994 68.0679 19.0392 67.9762 18.0996 67.7942C17.9344 67.7619 17.7846 67.6756 17.6736 67.5489C17.5627 67.4223 17.497 67.2625 17.4867 67.0944C17.3111 64.5324 17.7976 61.9682 18.8994 59.6485C15.6089 60.9264 12.4705 61.1046 9.54516 60.1744C7.57284 59.5448 5.74414 58.5323 4.16363 57.1949C2.58312 55.8576 1.28187 54.2216 0.33445 52.3807C0.267124 52.2505 0.239135 52.1035 0.253797 51.9577C0.26846 51.8118 0.325115 51.6734 0.417012 51.5592C2.50779 48.9511 4.45077 46.8734 7.13705 45.1347C8.9321 43.938 11.0126 43.239 13.166 43.1091C10.6458 41.1056 8.63257 38.5369 7.28923 35.611C5.46189 31.5835 5.03496 27.0603 6.07647 22.762C6.11154 22.6204 6.18614 22.4917 6.29158 22.3909C6.39702 22.2901 6.529 22.2213 6.67203 22.1926C10.4667 21.458 14.9308 22.2143 18.9516 24.2704C22.6777 26.1849 25.6577 29.2889 27.419 33.0899C27.5037 33.2732 27.5122 33.4827 27.4425 33.6722C27.3728 33.8617 27.2307 34.0158 27.0474 34.1005C26.8641 34.1852 26.6546 34.1937 26.4651 34.124C26.2755 34.0543 26.1214 33.9122 26.0367 33.7289C24.4199 30.2359 21.6831 27.3828 18.2604 25.6222C14.7135 23.8096 10.8058 23.0837 7.44576 23.6053C6.62897 27.4307 7.05846 31.4171 8.67146 34.9807C10.3858 38.7283 13.2888 41.8055 16.9303 43.7351C17.1028 43.8252 17.2343 43.9781 17.2976 44.1622C17.3608 44.3463 17.3511 44.5478 17.2703 44.7249C17.1895 44.9021 17.0438 45.0415 16.8633 45.1145C16.6828 45.1875 16.4812 45.1885 16.3 45.1173C13.8571 44.1349 10.7493 44.6218 7.9804 46.4213C5.59839 47.9644 3.81616 49.8292 1.93402 52.1286C3.69761 55.2732 6.58615 57.6337 10.019 58.7357C13.1965 59.7398 16.6999 59.2572 20.4512 57.2969C20.6024 57.2179 20.7758 57.1921 20.9435 57.2235C21.1111 57.255 21.2634 57.3419 21.3757 57.4703C21.488 57.5987 21.554 57.7611 21.5629 57.9315C21.5718 58.1018 21.5232 58.2702 21.4248 58.4097C19.7831 60.7493 18.9373 63.5548 19.0124 66.412C20.9933 66.7068 23.0148 66.5632 24.9342 65.9915C26.8536 65.4198 28.6242 64.4339 30.121 63.1033C31.6178 61.7727 32.8043 60.1299 33.597 58.2907C34.3896 56.4515 34.7691 54.4608 34.7085 52.4589C34.7022 52.2572 34.7762 52.0612 34.9144 51.9141C35.0525 51.7669 35.2434 51.6807 35.4452 51.6744C35.6469 51.668 35.843 51.7421 35.9901 51.8803C36.1373 52.0184 36.2235 52.2094 36.2299 52.4111C36.2881 54.4478 35.9366 56.4755 35.1962 58.3738C34.4559 60.2721 33.3417 62.0023 31.9199 63.4618C30.4981 64.9213 28.7976 66.0803 26.9194 66.8701C25.0411 67.6599 23.0234 68.0643 20.9858 68.0594L20.951 68.0681Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+												<path d="M67.7481 64.0953C67.676 64.0958 67.6042 64.0856 67.5352 64.0649C63.0667 62.7608 57.4203 60.7135 53.3822 56.4407C50.5034 53.4223 48.7203 49.5255 48.3181 45.3739C45.0233 45.7396 41.7063 44.913 38.9683 43.044C36.0647 41.1141 33.6349 38.0975 31.931 34.3506C30.2966 30.7297 29.5142 26.9176 28.9622 23.6662C28.9299 23.4731 28.9733 23.275 29.0834 23.113C29.1935 22.9511 29.3618 22.8379 29.5533 22.7969C32.796 22.0884 36.6559 22.4839 40.0246 23.7836C38.2512 20.4584 37.886 16.0682 39.19 12.0083C40.5418 7.80937 43.5107 3.90598 48.0182 0.411199C48.1349 0.320107 48.2755 0.265006 48.423 0.252653C48.5705 0.2403 48.7184 0.27127 48.8485 0.341689C55.0557 3.73649 59.6284 10.3392 60.8629 17.4808C66.8744 10.187 76.4894 5.94894 86.413 6.3271C86.6094 6.33497 86.7952 6.4186 86.9313 6.56041C87.0675 6.70222 87.1434 6.8912 87.1432 7.08778C87.1432 13.6687 86.3652 17.5678 84.244 21.9928C83.2399 24.0792 79.919 29.4431 75.6679 32.2467C78.0112 32.4633 80.2903 33.132 82.3792 34.2158C86.4347 36.2935 89.9773 39.8665 92.9114 44.8479C92.9955 44.9928 93.0299 45.1613 93.0095 45.3276C92.9891 45.4939 92.915 45.6491 92.7984 45.7694C89.7078 48.8991 85.9001 52.3286 81.0622 54.0282C76.6328 55.5713 72.0471 55.4062 68.4002 53.6414C69.2872 56.8892 69.3156 60.3116 68.4827 63.5737C68.4564 63.6707 68.411 63.7614 68.349 63.8406C68.287 63.9197 68.2098 63.9856 68.1219 64.0344C68.0044 64.0857 67.8759 64.1066 67.7481 64.0953ZM49.0137 43.6308C49.2154 43.6308 49.4089 43.711 49.5516 43.8536C49.6943 43.9963 49.7743 44.1898 49.7743 44.3915C49.7765 44.4117 49.7765 44.4322 49.7743 44.4524C49.9791 48.5475 51.65 52.4323 54.4819 55.3974C58.0462 59.1704 63.045 61.1178 67.1918 62.3783C67.8816 58.9798 67.5906 55.4551 66.3528 52.2156C66.2942 52.0634 66.2861 51.8964 66.3296 51.7392C66.3732 51.582 66.4661 51.443 66.5947 51.3427C66.7233 51.2424 66.8808 51.186 67.0438 51.182C67.2069 51.1779 67.3669 51.2264 67.5004 51.3202C70.9039 53.7022 75.9069 54.176 80.5406 52.5547C84.8873 51.0464 88.2647 48.1123 91.277 45.0957C88.695 40.8967 82.2053 32.5206 72.1165 33.7942C71.9231 33.8189 71.7276 33.7684 71.5703 33.6531C71.4131 33.5378 71.3061 33.3664 71.2715 33.1745C71.2369 32.9826 71.2773 32.7848 71.3844 32.6218C71.4915 32.4588 71.6572 32.3432 71.8471 32.2989C77.1979 31.0383 81.8881 23.3055 82.8487 21.306C84.8091 17.2288 85.5262 13.7513 85.5958 7.80065H85.1611C75.52 7.80065 66.3267 12.3343 60.9498 19.8107C60.8583 19.9353 60.7316 20.0297 60.5859 20.0816C60.4402 20.1335 60.2824 20.1406 60.1327 20.1019C59.9832 20.061 59.8498 19.9753 59.7504 19.8564C59.651 19.7376 59.5902 19.5912 59.5763 19.4369C58.9242 12.2517 54.6122 5.42301 48.5355 1.8978C44.4974 5.11874 41.8372 8.66568 40.6244 12.4473C39.3682 16.3594 39.5943 21.8145 42.9369 25.2311C43.0641 25.3636 43.1391 25.5378 43.1479 25.7213C43.1567 25.9048 43.0987 26.0853 42.9848 26.2295C42.8709 26.3736 42.7086 26.4716 42.528 26.5054C42.3475 26.5392 42.1608 26.5066 42.0024 26.4134C38.5596 24.3855 34.5333 23.5784 30.5748 24.1227C31.1008 27.1089 31.8571 30.4993 33.3002 33.6855C34.8868 37.1977 37.1297 39.9882 39.7943 41.7574C42.3337 43.5031 45.4377 44.2279 48.4877 43.7873C48.638 43.6726 48.8251 43.617 49.0137 43.6308Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.5"></path>
+											</svg>
+										</div>
+										<div class="wine-attribute__description">
+											<div class="wine-item__title wine-item__title--no-margin">
+												<h4 class="wine-name">UNIQUE SORT</h4>
+												<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+											</div>
+										</div>
+									</div>
+									<div class="wine-attribute">
+										<div class="wine-attribute__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="81" height="90" viewbox="0 0 81 90" fill="none">
+												<path d="M23.8601 89.3209H0.986467C0.792455 89.3209 0.606342 89.2438 0.469155 89.1066C0.331968 88.9694 0.254944 88.7834 0.254944 88.5894V49.363C0.254927 49.2653 0.274795 49.1686 0.313421 49.0788L7.80418 31.2589V0.986406C7.80418 0.792394 7.88131 0.606332 8.0185 0.469145C8.15568 0.331958 8.34169 0.254883 8.5357 0.254883H16.3066C16.5006 0.254883 16.6867 0.331958 16.8239 0.469145C16.9611 0.606332 17.0381 0.792394 17.0381 0.986406V31.2589L24.5289 49.0788C24.5675 49.1686 24.5875 49.2653 24.5875 49.363V88.5894C24.5875 88.7827 24.511 88.9681 24.3747 89.1051C24.2384 89.2422 24.0534 89.3198 23.8601 89.3209ZM1.70544 87.8578H23.1161V49.5177L15.6253 31.6978C15.5871 31.6079 15.5672 31.5112 15.5667 31.4135V1.73461H9.25467V31.4135C9.25423 31.5112 9.23438 31.6079 9.1962 31.6978L1.71799 49.5177L1.70544 87.8578Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.509851"></path>
+												<path d="M5.597 81.8045C5.40299 81.8045 5.21698 81.7275 5.07979 81.5903C4.9426 81.4531 4.86548 81.267 4.86548 81.073V60.557C4.86548 60.363 4.9426 60.1769 5.07979 60.0397C5.21698 59.9025 5.40299 59.8254 5.597 59.8254C5.79101 59.8254 5.97713 59.9025 6.11431 60.0397C6.2515 60.1769 6.32852 60.363 6.32852 60.557V81.073C6.32852 81.267 6.2515 81.4531 6.11431 81.5903C5.97713 81.7275 5.79101 81.8045 5.597 81.8045Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.509851"></path>
+												<path d="M48.1634 85.358C40.7161 85.3532 33.5015 82.7632 27.7517 78.0302C27.6776 77.969 27.6164 77.8938 27.5713 77.8089C27.5263 77.724 27.4984 77.631 27.4893 77.5353C27.4801 77.4397 27.49 77.3432 27.5181 77.2513C27.5463 77.1594 27.5924 77.0739 27.6536 76.9998C27.7148 76.9257 27.79 76.8644 27.8749 76.8193C27.9598 76.7743 28.0528 76.7464 28.1484 76.7373C28.2441 76.7282 28.3407 76.738 28.4326 76.7662C28.5244 76.7944 28.6099 76.8404 28.684 76.9016C33.439 80.8187 39.2649 83.2105 45.4006 83.7647C51.5362 84.3188 57.6964 83.0095 63.0763 80.0078C68.4562 77.0061 72.8057 72.4515 75.5565 66.9391C78.3073 61.4267 79.3316 55.2128 78.4955 49.1091C77.6594 43.0055 75.0018 37.2959 70.87 32.7263C66.7381 28.1567 61.324 24.9395 55.3351 23.4951C49.3462 22.0507 43.0608 22.4463 37.3001 24.63C31.5395 26.8137 26.5715 30.6842 23.045 35.7357C22.9342 35.8942 22.7648 36.0022 22.5743 36.0359C22.3839 36.0696 22.1877 36.0263 22.0292 35.9154C21.8706 35.8045 21.7626 35.6353 21.7289 35.4448C21.6952 35.2543 21.7386 35.0582 21.8495 34.8996C25.0069 30.3761 29.2771 26.7429 34.2479 24.3506C39.2187 21.9584 44.7223 20.888 50.2274 21.2427C55.7325 21.5974 61.0532 23.3652 65.6759 26.3755C70.2987 29.3859 74.0673 33.537 76.6181 38.4284C79.169 43.3197 80.4158 48.786 80.2383 54.2997C80.0608 59.8133 78.465 65.1881 75.6049 69.9053C72.7447 74.6224 68.7169 78.5226 63.9101 81.2294C59.1033 83.9362 53.6799 85.3581 48.1634 85.358Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.509851"></path>
+												<path d="M49.8228 56.2684H32.4419C32.2479 56.2684 32.0618 56.1913 31.9246 56.0541C31.7874 55.9169 31.7104 55.7309 31.7104 55.5368C31.7104 55.3428 31.7874 55.1568 31.9246 55.0196C32.0618 54.8824 32.2479 54.8053 32.4419 54.8053H49.0913V34.377C49.0913 34.183 49.1684 33.997 49.3056 33.8598C49.4428 33.7226 49.6288 33.6455 49.8228 33.6455C50.0168 33.6455 50.2029 33.7226 50.3401 33.8598C50.4773 33.997 50.5543 34.183 50.5543 34.377V55.5368C50.5543 55.7309 50.4773 55.9169 50.3401 56.0541C50.2029 56.1913 50.0168 56.2684 49.8228 56.2684Z" fill="#AF6900" stroke="#AF6900" stroke-width="0.509851"></path>
+											</svg>
+										</div>
+										<div class="wine-attribute__description">
+											<div class="wine-item__title wine-item__title--no-margin">
+												<h4 class="wine-name">OLD HABIT</h4>
+												<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="historicalInfo">
+									<div class="title__block block-title block-title--left block-title--notmargin">
+										<h2 class="smallTitle">OUR HISTOrY</h2>
+										<p class="block-title__text block-title__text--left">
+											Mattis aliquam malesuada euismod augue posuere
+                            venenatis. Maecenas faucibus dui vitae tellus et mi.
+                            Ut augue mattis augue dui et amet. Fringilla
+                            vestibulum dui
+										</p>
+										<button class="button" data-fls-button="">see more</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="naturalAuroma__img">
+							<img src="/vin-rouge/assets/img/naturalAuroma/vineyard.jpg" alt="vineyard">
+							<div class="wine-item__title">
+								<h4 class="vineyard-title">OUR VINEYARD</h4>
+								<p class="vineyard-subtitlet">Lorem ipsum malesu.</p>
+							</div>
+						</div>
+					</section>
+					<section class="wineProduction">
+						<div class="wineProduction__container">
+							<div class="title__block block-title">
+								<p class="block-title__subtitle">Augue sed nec</p>
+								<h2>We make wine</h2>
+							</div>
+							<div class="wineProduction__producers">
+								<article class="wine-producer">
+									<div class="wine-producer__img">
+										<img src="/vin-rouge/assets/img/wine%20producers/cavaco.jpg" alt="wine producer photo ANTIA CAVACO">
+									</div>
+									<div class="wine-item__title">
+										<h4 class="wine-name">ANTIA CAVACO</h4>
+										<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+									</div>
+									<div class="wine-producer__information">
+										<p>
+											Ada euismod augue posuere venenatisim Maecenas
+                            faucibus dui vitae tellus et mi. Ut augue mattis
+										</p>
+									</div>
+									<div class="wine-producer__socials">
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="10" height="21" viewbox="0 0 10 21" fill="none">
+												<path d="M2.01913 4.00357C2.01913 4.52427 2.03629 7.07181 2.03629 7.07181H0V10.3357L2.01913 10.3297L2.03629 20.6715H6.10887V10.3357L8.71715 10.3297C8.71715 10.3297 8.91416 8.89639 9.03603 7.07181C8.68609 7.07181 6.10887 7.07181 6.10887 7.07181C6.10887 7.07181 6.04263 4.81161 6.04263 4.45698C6.04263 4.10143 6.47962 3.623 6.91162 3.623H9.09544C9.09544 3.14919 9.09544 1.51201 9.09544 0C7.97044 0 6.69068 0 6.12622 0C1.92002 0 2.01913 3.48336 2.01913 4.00357Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewbox="0 0 21 17" fill="none">
+												<path d="M20.6715 1.95804C19.9113 2.28961 19.0946 2.51364 18.2361 2.61491C19.1119 2.09874 19.7838 1.27967 20.1006 0.304684C19.2813 0.783217 18.3736 1.13092 17.4077 1.31731C16.6338 0.507209 15.5323 0 14.3123 0C11.9708 0 10.0717 1.86933 10.0717 4.17596C10.0717 4.50215 10.1099 4.81938 10.181 5.12586C6.655 4.95111 3.53143 3.28879 1.43934 0.763502C1.07518 1.38183 0.865785 2.09874 0.865785 2.86224C0.865785 4.31038 1.61504 5.58916 2.75213 6.33743C2.05658 6.31502 1.40292 6.12773 0.83119 5.81498V5.86875C0.83119 7.89131 2.29238 9.57872 4.23334 9.96226C3.87647 10.0573 3.50229 10.1074 3.11629 10.1074C2.84317 10.1074 2.57642 10.0823 2.31787 10.034C2.85773 11.6918 4.42361 12.8998 6.27991 12.932C4.82783 14.0522 2.99884 14.7198 1.01236 14.7198C0.67005 14.7198 0.332293 14.7001 0 14.6616C1.87724 15.8471 4.10589 16.5372 6.50023 16.5372C14.3023 16.5372 18.5675 10.1764 18.5675 4.65987C18.5675 4.48065 18.563 4.29963 18.5548 4.1204C19.3832 3.53075 20.1025 2.79682 20.6696 1.96073L20.6715 1.95804Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewbox="0 0 19 13" fill="none">
+												<path d="M3.87051 12.9017H0V0H3.87051V12.9017ZM18.0624 12.9017H14.1919V6.0096C14.1919 4.21369 13.5519 3.3196 12.2837 3.3196C11.2787 3.3196 10.6413 3.82019 10.3213 4.82265V12.9017H6.45084C6.45084 12.9017 6.50245 1.29017 6.45084 0H9.50596L9.74206 2.58034H9.82205C10.6155 1.29017 11.8837 0.415434 13.6229 0.415434C14.9453 0.415434 16.0149 0.783132 16.8315 1.70689C17.6534 2.63194 18.0624 3.87309 18.0624 5.6161V12.9017Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+									</div>
+								</article>
+								<article class="wine-producer">
+									<div class="wine-producer__img">
+										<img src="/vin-rouge/assets/img/wine%20producers/amiro.jpg" alt="wine producer photo AMIRO SIVESTRE">
+									</div>
+									<div class="wine-item__title">
+										<h4 class="wine-name">AMIRO SIVESTRE</h4>
+										<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+									</div>
+									<div class="wine-producer__information">
+										<p>
+											Ada euismod augue posuere venenatisim Maecenas
+                            faucibus dui vitae tellus et mi. Ut augue mattis
+										</p>
+									</div>
+									<div class="wine-producer__socials">
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="10" height="21" viewbox="0 0 10 21" fill="none">
+												<path d="M2.01913 4.00357C2.01913 4.52427 2.03629 7.07181 2.03629 7.07181H0V10.3357L2.01913 10.3297L2.03629 20.6715H6.10887V10.3357L8.71715 10.3297C8.71715 10.3297 8.91416 8.89639 9.03603 7.07181C8.68609 7.07181 6.10887 7.07181 6.10887 7.07181C6.10887 7.07181 6.04263 4.81161 6.04263 4.45698C6.04263 4.10143 6.47962 3.623 6.91162 3.623H9.09544C9.09544 3.14919 9.09544 1.51201 9.09544 0C7.97044 0 6.69068 0 6.12622 0C1.92002 0 2.01913 3.48336 2.01913 4.00357Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewbox="0 0 21 17" fill="none">
+												<path d="M20.6715 1.95804C19.9113 2.28961 19.0946 2.51364 18.2361 2.61491C19.1119 2.09874 19.7838 1.27967 20.1006 0.304684C19.2813 0.783217 18.3736 1.13092 17.4077 1.31731C16.6338 0.507209 15.5323 0 14.3123 0C11.9708 0 10.0717 1.86933 10.0717 4.17596C10.0717 4.50215 10.1099 4.81938 10.181 5.12586C6.655 4.95111 3.53143 3.28879 1.43934 0.763502C1.07518 1.38183 0.865785 2.09874 0.865785 2.86224C0.865785 4.31038 1.61504 5.58916 2.75213 6.33743C2.05658 6.31502 1.40292 6.12773 0.83119 5.81498V5.86875C0.83119 7.89131 2.29238 9.57872 4.23334 9.96226C3.87647 10.0573 3.50229 10.1074 3.11629 10.1074C2.84317 10.1074 2.57642 10.0823 2.31787 10.034C2.85773 11.6918 4.42361 12.8998 6.27991 12.932C4.82783 14.0522 2.99884 14.7198 1.01236 14.7198C0.67005 14.7198 0.332293 14.7001 0 14.6616C1.87724 15.8471 4.10589 16.5372 6.50023 16.5372C14.3023 16.5372 18.5675 10.1764 18.5675 4.65987C18.5675 4.48065 18.563 4.29963 18.5548 4.1204C19.3832 3.53075 20.1025 2.79682 20.6696 1.96073L20.6715 1.95804Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewbox="0 0 19 13" fill="none">
+												<path d="M3.87051 12.9017H0V0H3.87051V12.9017ZM18.0624 12.9017H14.1919V6.0096C14.1919 4.21369 13.5519 3.3196 12.2837 3.3196C11.2787 3.3196 10.6413 3.82019 10.3213 4.82265V12.9017H6.45084C6.45084 12.9017 6.50245 1.29017 6.45084 0H9.50596L9.74206 2.58034H9.82205C10.6155 1.29017 11.8837 0.415434 13.6229 0.415434C14.9453 0.415434 16.0149 0.783132 16.8315 1.70689C17.6534 2.63194 18.0624 3.87309 18.0624 5.6161V12.9017Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+									</div>
+								</article>
+								<article class="wine-producer">
+									<div class="wine-producer__img">
+										<img src="/vin-rouge/assets/img/wine%20producers/branca.jpg" alt="wine producer photo BRANCA ALVA">
+									</div>
+									<div class="wine-item__title">
+										<h4 class="wine-name">BRANCA ALVA</h4>
+										<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+									</div>
+									<div class="wine-producer__information">
+										<p>
+											Ada euismod augue posuere venenatisim Maecenas
+                            faucibus dui vitae tellus et mi. Ut augue mattis
+										</p>
+									</div>
+									<div class="wine-producer__socials">
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="10" height="21" viewbox="0 0 10 21" fill="none">
+												<path d="M2.01913 4.00357C2.01913 4.52427 2.03629 7.07181 2.03629 7.07181H0V10.3357L2.01913 10.3297L2.03629 20.6715H6.10887V10.3357L8.71715 10.3297C8.71715 10.3297 8.91416 8.89639 9.03603 7.07181C8.68609 7.07181 6.10887 7.07181 6.10887 7.07181C6.10887 7.07181 6.04263 4.81161 6.04263 4.45698C6.04263 4.10143 6.47962 3.623 6.91162 3.623H9.09544C9.09544 3.14919 9.09544 1.51201 9.09544 0C7.97044 0 6.69068 0 6.12622 0C1.92002 0 2.01913 3.48336 2.01913 4.00357Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewbox="0 0 21 17" fill="none">
+												<path d="M20.6715 1.95804C19.9113 2.28961 19.0946 2.51364 18.2361 2.61491C19.1119 2.09874 19.7838 1.27967 20.1006 0.304684C19.2813 0.783217 18.3736 1.13092 17.4077 1.31731C16.6338 0.507209 15.5323 0 14.3123 0C11.9708 0 10.0717 1.86933 10.0717 4.17596C10.0717 4.50215 10.1099 4.81938 10.181 5.12586C6.655 4.95111 3.53143 3.28879 1.43934 0.763502C1.07518 1.38183 0.865785 2.09874 0.865785 2.86224C0.865785 4.31038 1.61504 5.58916 2.75213 6.33743C2.05658 6.31502 1.40292 6.12773 0.83119 5.81498V5.86875C0.83119 7.89131 2.29238 9.57872 4.23334 9.96226C3.87647 10.0573 3.50229 10.1074 3.11629 10.1074C2.84317 10.1074 2.57642 10.0823 2.31787 10.034C2.85773 11.6918 4.42361 12.8998 6.27991 12.932C4.82783 14.0522 2.99884 14.7198 1.01236 14.7198C0.67005 14.7198 0.332293 14.7001 0 14.6616C1.87724 15.8471 4.10589 16.5372 6.50023 16.5372C14.3023 16.5372 18.5675 10.1764 18.5675 4.65987C18.5675 4.48065 18.563 4.29963 18.5548 4.1204C19.3832 3.53075 20.1025 2.79682 20.6696 1.96073L20.6715 1.95804Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewbox="0 0 19 13" fill="none">
+												<path d="M3.87051 12.9017H0V0H3.87051V12.9017ZM18.0624 12.9017H14.1919V6.0096C14.1919 4.21369 13.5519 3.3196 12.2837 3.3196C11.2787 3.3196 10.6413 3.82019 10.3213 4.82265V12.9017H6.45084C6.45084 12.9017 6.50245 1.29017 6.45084 0H9.50596L9.74206 2.58034H9.82205C10.6155 1.29017 11.8837 0.415434 13.6229 0.415434C14.9453 0.415434 16.0149 0.783132 16.8315 1.70689C17.6534 2.63194 18.0624 3.87309 18.0624 5.6161V12.9017Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+									</div>
+								</article>
+								<article class="wine-producer">
+									<div class="wine-producer__img">
+										<img src="/vin-rouge/assets/img/wine%20producers/valetin.jpg" alt="wine producer photo VALETIN EATON">
+									</div>
+									<div class="wine-item__title">
+										<h4 class="wine-name">VALETIN EATON</h4>
+										<p class="wine-subtitle--pseudo-element">Lorem ipsum malesu.</p>
+									</div>
+									<div class="wine-producer__information">
+										<p>
+											Ada euismod augue posuere venenatisim Maecenas
+                            faucibus dui vitae tellus et mi. Ut augue mattis
+										</p>
+									</div>
+									<div class="wine-producer__socials">
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="10" height="21" viewbox="0 0 10 21" fill="none">
+												<path d="M2.01913 4.00357C2.01913 4.52427 2.03629 7.07181 2.03629 7.07181H0V10.3357L2.01913 10.3297L2.03629 20.6715H6.10887V10.3357L8.71715 10.3297C8.71715 10.3297 8.91416 8.89639 9.03603 7.07181C8.68609 7.07181 6.10887 7.07181 6.10887 7.07181C6.10887 7.07181 6.04263 4.81161 6.04263 4.45698C6.04263 4.10143 6.47962 3.623 6.91162 3.623H9.09544C9.09544 3.14919 9.09544 1.51201 9.09544 0C7.97044 0 6.69068 0 6.12622 0C1.92002 0 2.01913 3.48336 2.01913 4.00357Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewbox="0 0 21 17" fill="none">
+												<path d="M20.6715 1.95804C19.9113 2.28961 19.0946 2.51364 18.2361 2.61491C19.1119 2.09874 19.7838 1.27967 20.1006 0.304684C19.2813 0.783217 18.3736 1.13092 17.4077 1.31731C16.6338 0.507209 15.5323 0 14.3123 0C11.9708 0 10.0717 1.86933 10.0717 4.17596C10.0717 4.50215 10.1099 4.81938 10.181 5.12586C6.655 4.95111 3.53143 3.28879 1.43934 0.763502C1.07518 1.38183 0.865785 2.09874 0.865785 2.86224C0.865785 4.31038 1.61504 5.58916 2.75213 6.33743C2.05658 6.31502 1.40292 6.12773 0.83119 5.81498V5.86875C0.83119 7.89131 2.29238 9.57872 4.23334 9.96226C3.87647 10.0573 3.50229 10.1074 3.11629 10.1074C2.84317 10.1074 2.57642 10.0823 2.31787 10.034C2.85773 11.6918 4.42361 12.8998 6.27991 12.932C4.82783 14.0522 2.99884 14.7198 1.01236 14.7198C0.67005 14.7198 0.332293 14.7001 0 14.6616C1.87724 15.8471 4.10589 16.5372 6.50023 16.5372C14.3023 16.5372 18.5675 10.1764 18.5675 4.65987C18.5675 4.48065 18.563 4.29963 18.5548 4.1204C19.3832 3.53075 20.1025 2.79682 20.6696 1.96073L20.6715 1.95804Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+										<a href="#" class="socials-item">
+											<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewbox="0 0 19 13" fill="none">
+												<path d="M3.87051 12.9017H0V0H3.87051V12.9017ZM18.0624 12.9017H14.1919V6.0096C14.1919 4.21369 13.5519 3.3196 12.2837 3.3196C11.2787 3.3196 10.6413 3.82019 10.3213 4.82265V12.9017H6.45084C6.45084 12.9017 6.50245 1.29017 6.45084 0H9.50596L9.74206 2.58034H9.82205C10.6155 1.29017 11.8837 0.415434 13.6229 0.415434C14.9453 0.415434 16.0149 0.783132 16.8315 1.70689C17.6534 2.63194 18.0624 3.87309 18.0624 5.6161V12.9017Z" fill="#AF6900"></path>
+											</svg>
+										</a>
+									</div>
+								</article>
+							</div>
+						</div>
+					</section>
+					<section class="knowing">
+						<div class="knowing__body">
+							<div class="knowing__content content-knowing">
+								<h3 class="content-knowing__title">GET TO KNOW US</h3>
+								<p class="content-knowing__subtitle">Lorem ipsum malesu.</p>
+								<div class="content-knowing__reference">
+									<details class="reference-item">
+										<summary class="reference-question">The Origin of our Drinks</summary>
+										<div class="reference-info">
+											<p>
+												Id habitasse tortor molestie ut etiam ac
+                                faucibus. Arcu pellentesque pretium ultrices
+                                egestas nulla pharetra. Consectetur sed urna
+                                tincidunt tellus mauris mi.
+											</p>
+										</div>
+									</details>
+									<details class="reference-item">
+										<summary class="reference-question">Where you can Taste our Drinks?</summary>
+										<div class="reference-info">
+											<p>
+												Id habitasse tortor molestie ut etiam ac
+                                faucibus. Arcu pellentesque pretium ultrices
+                                egestas nulla pharetra. Consectetur sed urna
+                                tincidunt tellus mauris mi.
+											</p>
+										</div>
+									</details>
+									<details class="reference-item">
+										<summary class="reference-question">Wine Quality Prediction</summary>
+										<div class="reference-info">
+											<p>
+												Id habitasse tortor molestie ut etiam ac
+                                faucibus. Arcu pellentesque pretium ultrices
+                                egestas nulla pharetra. Consectetur sed urna
+                                tincidunt tellus mauris mi.
+											</p>
+										</div>
+									</details>
+									<details class="reference-item">
+										<summary class="reference-question">Learn More About Us</summary>
+										<div class="reference-info">
+											<p>
+												Id habitasse tortor molestie ut etiam ac
+                                faucibus. Arcu pellentesque pretium ultrices
+                                egestas nulla pharetra. Consectetur sed urna
+                                tincidunt tellus mauris mi.
+											</p>
+										</div>
+									</details>
+								</div>
+							</div>
+							<div class="knowing__image image-knowing">
+								<div class="image-knowing__wrapper">
+									<img src="/vin-rouge/assets/img/knowing/map.png" alt="geographical map">
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="vineyardEvents">
+						<div class="vineyardEvents__container">
+							<div class="title__block block-title">
+								<p class="block-title__subtitle">Augue sed nec</p>
+								<h2>VINEYaRD EVENTS</h2>
+							</div>
+							<div class="vineyardEvents__body">
+								<div class="vineyardEvents__content">
+									<article class="event-card">
+										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-aperitiv.png" alt="">
+										<div class="event-card__image">
+											<img src="/vin-rouge/assets/img/naturalAuroma/06.jpg" alt="people with glasses of wine">
+										</div>
+										<div class="event-card__information">
+											<h4 class="event-title">APERITIV</h4>
+											<div class="event-details">
+												<div class="event-data">
+													<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20" fill="none">
+														<path d="M0.825317 4.30971C0.825317 3.34745 1.60538 2.56738 2.56764 2.56738H14.7639C15.7262 2.56738 16.5062 3.34745 16.5062 4.30971V16.506C16.5062 17.4683 15.7262 18.2483 14.7639 18.2483H2.56764C1.60538 18.2483 0.825317 17.4683 0.825317 16.506V4.30971Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M0.825317 7.79492H16.5062" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M12.1505 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M5.18115 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>June 25, 2023</p>
+												</div>
+												<div class="event-time">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+														<path d="M9.81049 18.7955C14.7729 18.7955 18.7957 14.7727 18.7957 9.81036C18.7957 4.84799 14.7729 0.825195 9.81049 0.825195C4.84811 0.825195 0.825317 4.84799 0.825317 9.81036C0.825317 14.7727 4.84811 18.7955 9.81049 18.7955Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M9.81055 4.41895V9.81005L13.4046 13.4041" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>10:00</p>
+												</div>
+												<div class="event-location">
+													<svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewbox="0 0 17 20" fill="none">
+														<path d="M2.66351 12.8321L8.05604 18.8979L13.4486 12.8321C17.5845 8.17971 14.2815 0.825195 8.05604 0.825195C1.83062 0.825195 -1.47244 8.17971 2.66351 12.8321Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M8.05606 10.7656C9.55325 10.7656 10.767 9.55185 10.767 8.05466C10.767 6.55746 9.55325 5.34375 8.05606 5.34375C6.55887 5.34375 5.34515 6.55746 5.34515 8.05466C5.34515 9.55185 6.55887 10.7656 8.05606 10.7656Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>Lisbon, Portugal</p>
+												</div>
+											</div>
+											<a class="button button--transparent" data-fls-button="">see more</a>
+										</div>
+									</article>
+									<article class="event-card">
+										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-drink.png" alt="people with glasses of wine">
+										<div class="event-card__image">
+											<img src="/vin-rouge/assets/img/naturalAuroma/03.jpg" alt="Hanging bunches of grapes">
+										</div>
+										<div class="event-card__information">
+											<h4 class="event-title">DRINK’S ORIGIN</h4>
+											<div class="event-details">
+												<div class="event-data">
+													<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20" fill="none">
+														<path d="M0.825317 4.30971C0.825317 3.34745 1.60538 2.56738 2.56764 2.56738H14.7639C15.7262 2.56738 16.5062 3.34745 16.5062 4.30971V16.506C16.5062 17.4683 15.7262 18.2483 14.7639 18.2483H2.56764C1.60538 18.2483 0.825317 17.4683 0.825317 16.506V4.30971Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M0.825317 7.79492H16.5062" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M12.1505 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M5.18115 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>June 25, 2023</p>
+												</div>
+												<div class="event-time">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+														<path d="M9.81049 18.7955C14.7729 18.7955 18.7957 14.7727 18.7957 9.81036C18.7957 4.84799 14.7729 0.825195 9.81049 0.825195C4.84811 0.825195 0.825317 4.84799 0.825317 9.81036C0.825317 14.7727 4.84811 18.7955 9.81049 18.7955Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M9.81055 4.41895V9.81005L13.4046 13.4041" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>10:00</p>
+												</div>
+												<div class="event-location">
+													<svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewbox="0 0 17 20" fill="none">
+														<path d="M2.66351 12.8321L8.05604 18.8979L13.4486 12.8321C17.5845 8.17971 14.2815 0.825195 8.05604 0.825195C1.83062 0.825195 -1.47244 8.17971 2.66351 12.8321Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M8.05606 10.7656C9.55325 10.7656 10.767 9.55185 10.767 8.05466C10.767 6.55746 9.55325 5.34375 8.05606 5.34375C6.55887 5.34375 5.34515 6.55746 5.34515 8.05466C5.34515 9.55185 6.55887 10.7656 8.05606 10.7656Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>Lisbon, Portugal</p>
+												</div>
+											</div>
+											<a class="button button--transparent" data-fls-button="">see more</a>
+										</div>
+									</article>
+									<article class="event-card">
+										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-tour.png" alt="people with glasses of wine">
+										<div class="event-card__image">
+											<img src="/vin-rouge/assets/img/naturalAuroma/02.jpg" alt="A woman walking through a vineyard">
+										</div>
+										<div class="event-card__information">
+											<h4 class="event-title">WINE TOUR</h4>
+											<div class="event-details">
+												<div class="event-data">
+													<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20" fill="none">
+														<path d="M0.825317 4.30971C0.825317 3.34745 1.60538 2.56738 2.56764 2.56738H14.7639C15.7262 2.56738 16.5062 3.34745 16.5062 4.30971V16.506C16.5062 17.4683 15.7262 18.2483 14.7639 18.2483H2.56764C1.60538 18.2483 0.825317 17.4683 0.825317 16.506V4.30971Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M0.825317 7.79492H16.5062" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M12.1505 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M5.18115 0.825195V4.30985" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>June 25, 2023</p>
+												</div>
+												<div class="event-time">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+														<path d="M9.81049 18.7955C14.7729 18.7955 18.7957 14.7727 18.7957 9.81036C18.7957 4.84799 14.7729 0.825195 9.81049 0.825195C4.84811 0.825195 0.825317 4.84799 0.825317 9.81036C0.825317 14.7727 4.84811 18.7955 9.81049 18.7955Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M9.81055 4.41895V9.81005L13.4046 13.4041" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>10:00</p>
+												</div>
+												<div class="event-location">
+													<svg xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewbox="0 0 17 20" fill="none">
+														<path d="M2.66351 12.8321L8.05604 18.8979L13.4486 12.8321C17.5845 8.17971 14.2815 0.825195 8.05604 0.825195C1.83062 0.825195 -1.47244 8.17971 2.66351 12.8321Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+														<path d="M8.05606 10.7656C9.55325 10.7656 10.767 9.55185 10.767 8.05466C10.767 6.55746 9.55325 5.34375 8.05606 5.34375C6.55887 5.34375 5.34515 6.55746 5.34515 8.05466C5.34515 9.55185 6.55887 10.7656 8.05606 10.7656Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+													</svg>
+													<p>Lisbon, Portugal</p>
+												</div>
+											</div>
+											<a class="button button--transparent" data-fls-button="">see more</a>
+										</div>
+									</article>
+								</div>
+								<div class="vineyardEvents__image image-vineyardEvents">
+									<div class="image-vineyardEvents__wrapper">
+										<img src="/vin-rouge/assets/img/vineyardEvents/cellar.png" alt="cellar">
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="newsletter">
+						<div class="newsletter__image">
+							<img src="/vin-rouge/assets/img/newsletter/bottle%20of%20wine.png" alt="bottle of wine">
+						</div>
+						<div class="newsletter__content content-newsletter">
+							<h5 class="content-newsletter__title">NEWSLETTER</h5>
+							<p class="content-newsletter__subtitle">Subscribe for lastest news</p>
+							<p class="content-newsletter__text">
+								Mattis aliquam malesuada euismod augue posuere venenatis.
+                Maecenas faucibus dui vitae tellus et mi. Ut augue mattis augue
+                dui et amet. Fringilla vestibulum dui
+							</p>
+							<form class="content-newsletter__form" data-fls-form="ajax" data-fls-form-popup="popup" method="POST" action="php/sendmail">
+								<input required type="email" name="form[email]" data-fls-form-errtext="Error" placeholder="Type your email here..." class="input">
+								<button type="submit" class="button button--wide">Send</button>
+							</form>
+						</div>
+					</section>
+					<section class="lovingClient">
+						<div class="lovingClient__container">
+							<div class="title__block block-title">
+								<p class="block-title__subtitle">Augue sed nec</p>
+								<h2>OUr LOVING ClIENT</h2>
+							</div>
+							<div class="lovingClient__body">
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/arrows.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/wine-list.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/nosoreno.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/glass%20of%20wine.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/wine%20club.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/fd.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/bignest%20quality.svg" alt="">
+								</div>
+								<div class="lovingClient__item">
+									<img src="/vin-rouge/assets/img/lovingClient/vineyard.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__logo">
+							<img src="/vin-rouge/assets/img/footer/Logo.png" alt="Vin Rouge logo">
+						</div>
+						<div class="body-footer__content">
+							<div class="footer__contact contact-footer">
+								<h3 class="footer__title footer__title--contact">CONTACT US</h3>
+								<address class="contact-footer__items">
+									<a class="contact-footer__item" href="https://www.google.com/maps?q=Quinta+da+Pacheca+Rua+do+Relogio+do+Sol+261+Cambres+Portugal">
+										<svg aria-hidden="true" class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="20" viewbox="0 0 17 20" fill="none">
+											<path d="M2.66348 12.8321L8.05601 18.8979L13.4485 12.8321C17.5845 8.17971 14.2814 0.825195 8.05601 0.825195C1.83059 0.825195 -1.47247 8.17971 2.66348 12.8321Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M8.056 10.7656C9.55319 10.7656 10.7669 9.55185 10.7669 8.05466C10.7669 6.55746 9.55319 5.34375 8.056 5.34375C6.55881 5.34375 5.34509 6.55746 5.34509 8.05466C5.34509 9.55185 6.55881 10.7656 8.056 10.7656Z" stroke="#BB6500" stroke-width="1.65062" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>Rua do Relógio do Sol 261, Cambres,
+                                Portugal</span>
+									</a>
+									<a href="mailto:vinrouge@dotcreativemarket.com" class="contact-footer__item">
+										<svg aria-hidden="true" class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewbox="0 0 20 17" fill="none">
+											<path d="M2.66076 0.825195H17.3458C18.3554 0.825195 19.1814 1.65123 19.1814 2.66082V13.6746C19.1814 14.6842 18.3554 15.5102 17.3458 15.5102H2.66076C1.65117 15.5102 0.825134 14.6842 0.825134 13.6746V2.66082C0.825134 1.65123 1.65117 0.825195 2.66076 0.825195Z" stroke="#BB6500" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M19.1813 2.66113L10.0032 9.08583L0.825073 2.66113" stroke="#BB6500" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>vinrouge@dotcreativemarket.com</span>
+									</a>
+									<a href="tel:+1234567890" class="contact-footer__item">
+										<svg aria-hidden="true" class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+											<path d="M2.15815 0.825195L5.36914 0.941392C6.04547 0.96586 6.64567 1.39295 6.90488 2.03419L7.85432 4.38295C8.0753 4.92953 8.01583 5.55316 7.69582 6.04549L6.47939 7.9171C7.1996 8.9513 9.15856 11.3744 11.2328 12.7928L12.7795 11.8409C13.1726 11.599 13.6432 11.5272 14.088 11.6412L17.1627 12.4296C17.9805 12.6394 18.5315 13.4236 18.4669 14.2857L18.2695 16.918C18.2002 17.8417 17.4442 18.5666 16.5468 18.4623C4.7007 17.0848 -2.24607 0.825169 2.15815 0.825195V0.825195Z" stroke="#BB6500" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<span>+1 (123) 456-7890</span>
+									</a>
+								</address>
+							</div>
+							<div class="footer__about about-footer">
+								<h3 class="footer__title">ABOUT US</h3>
+								<div class="about-footer__items">
+									<a href="#" class="about-footer__item">Story about us</a>
+									<a href="#" class="about-footer__item">Our latest blog posts</a>
+									<a href="#" class="about-footer__item">Purchase our products</a>
+									<a href="#" class="about-footer__item">Keep in touch</a>
+								</div>
+							</div>
+							<div class="footer__news news-footer">
+								<h3 class="footer__title">LASTEST NEWS</h3>
+								<div class="news-footer__items">
+									<article class="news-footer__item">
+										<a href="#" class="news-footer__link">
+											<time datetime="2019-09-11">September 11, 2019</time>
+											<h4>largest vineyard</h4>
+										</a>
+									</article>
+									<article class="news-footer__item">
+										<a href="#" class="news-footer__link">
+											<time datetime="2019-09-11">September 11, 2019</time>
+											<h4>Our best aperitifs</h4>
+										</a>
+									</article>
+									<article class="news-footer__item">
+										<a href="#" class="news-footer__link">
+											<time datetime="2019-09-11">September 11, 2019</time>
+											<h4>Amazing Recipes</h4>
+										</a>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<p class="footer__copyright">
+							Copyright
+							<a href="#">Dotcreativemarket</a>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
