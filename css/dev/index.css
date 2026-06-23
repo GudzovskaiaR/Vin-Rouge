@@ -252,6 +252,7 @@ body {
 
 .bestSpirit {
   position: relative;
+  padding-inline: 0.625rem;
 }
 .bestSpirit::before {
   position: absolute;
@@ -286,6 +287,7 @@ body {
 section.reviews {
   background-color: #F5EBDA;
   position: relative;
+  z-index: 5;
   height: auto;
   background-image: url("/vin-rouge/assets/img/reviews/fon2.png");
   background-repeat: no-repeat;
@@ -351,6 +353,7 @@ section.reviews .reviews__slider {
 
 .naturalAuroma {
   position: relative;
+  z-index: 1;
 }
 .naturalAuroma::before {
   content: "";
@@ -428,7 +431,6 @@ section.reviews .reviews__slider {
   width: 100%;
   height: auto;
   border-radius: 0.625rem;
-  padding-bottom: 0.75rem;
 }
 .naturalAuroma__img .wine-item__title {
   position: absolute;
@@ -448,6 +450,7 @@ section.reviews .reviews__slider {
 }
 .naturalAuroma__img img {
   width: 100%;
+  object-fit: contain;
   transform: scale(1.2);
   opacity: 0;
   transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 1s ease;
@@ -1851,13 +1854,13 @@ section.reviews .reviews__slider {
   }
   .vineyardEvents__image {
     padding-left: 0;
-    justify-content: end;
+    justify-content: center;
   }
   .image-vineyardEvents__wrapper::after {
     display: none;
   }
   .image-vineyardEvents__wrapper {
-    width: 80%;
+    width: 100%;
   }
 }@media (max-width: 54.0625rem){
   .vineCards {
@@ -2263,7 +2266,7 @@ section.reviews .reviews__slider {
     font-size: 1rem;
   }
   .block-title__subtitle {
-    margin-bottom: 0.625rem;
+    padding-bottom: 0.625rem;
   }
   .block-title__subtitle {
     font-size: 0.75rem;
@@ -2679,7 +2682,7 @@ section.reviews .reviews__slider {
     font-size: clamp( 1rem , 0.8855507868375rem  +  0.5722460658vw , 1.5rem );
   }
   .block-title__subtitle {
-    margin-bottom: clamp( 0.625rem , 0.49624463519375rem  +  0.643776824vw , 1.1875rem );
+    padding-bottom: clamp( 0.625rem , 0.49624463519375rem  +  0.643776824vw , 1.1875rem );
   }
   .block-title__subtitle {
     font-size: clamp( 0.75rem , 0.57832618025625rem  +  0.8583690987vw , 1.5rem );
@@ -3099,7 +3102,7 @@ section.reviews .reviews__slider {
     font-size: 1.5rem;
   }
   .block-title__subtitle {
-    margin-bottom: 1.1875rem;
+    padding-bottom: 1.1875rem;
   }
   .block-title__subtitle {
     font-size: 1.5rem;
