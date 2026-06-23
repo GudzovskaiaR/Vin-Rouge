@@ -18,3 +18,5 @@
 -Після цього чат "Патронес" з'явиться у вашому дискорді.
 
 ❤️Дякую за підтримку каналу
+ // "deploy": "vite build -- --ftp",
+ base: templateConfig.server.path,

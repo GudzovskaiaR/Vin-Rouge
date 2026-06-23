@@ -60,7 +60,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
 				...aliases
 			},
 		},
-		base: templateConfig.server.path,
+		base: "/vin-rouge/",
 		assetsInclude: ['src/components/**/*.html'],
 		clearScreen: true,
 		root: path.join(__dirname, "src"),

@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "zip": "vite build -- --zip",
     "tmp": "vite build -- --tmp --zip",
-    "deploy": "vite build -- --ftp",
+   
+    "deploy": "gh-pages -d dist",
     "git": "vite build -- --git",
     "stat": "node template_modules/statistics.js -- --stat",
     "stat-clear": "node template_modules/statistics.js -- --stat-clear",
@@ -33,7 +34,7 @@
     "cssnano": "latest",
     "fonteditor-core": "v2.4.0",
     "fontmin": "v2.0.0",
-    "gh-pages": "latest",
+    "gh-pages": "^6.3.0",
     "glob": "latest",
     "gsap": "latest",
     "html2canvas": "latest",

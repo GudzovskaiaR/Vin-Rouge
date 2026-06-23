@@ -277,6 +277,7 @@
 // =================================================================================
 .bestSpirit {
     position: relative;
+    padding-inline: 10px;
     @include adaptiveValue('padding-top', 80, 40);
     @include adaptiveValue('padding-bottom', 166, 10);
     &::before {
@@ -331,6 +332,7 @@
 section.reviews {
     background-color: $softIvoryColor;
     position: relative;
+    z-index: 5;
     height: auto;
     background-image: url('@img/reviews/fon2.png');
     background-repeat: no-repeat;
@@ -438,6 +440,7 @@ section.reviews .reviews__slider {
 // =====================================naturalAuroma===================================================
 .naturalAuroma {
     position: relative;
+    z-index: 1;
     @include adaptiveValue('padding-top', 60, 80);
     @include adaptiveValue('padding-inline', 182, 15);
     @include adaptiveValue('padding-bottom', 127, 60);
@@ -535,8 +538,8 @@ section.reviews .reviews__slider {
         overflow: hidden;
         width: 100%;
         height: auto;
-        border-radius: 10px;
-        padding-bottom: 12px;
+       border-radius: 10px;
+      
         @include adaptiveValue('margin-top', 127, 20);
         .wine-item__title {
             position: absolute;
@@ -558,6 +561,7 @@ section.reviews .reviews__slider {
         }
         img {
             width: 100%;
+            object-fit: contain;
             transform: scale(1.2); 
         opacity: 0;
        transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 1s ease;
@@ -614,6 +618,11 @@ section.reviews .reviews__slider {
     justify-content: flex-end;
     align-items: center;
     @include adaptiveValue('padding-left', 142, 50);
+    @media (max-width: toEm(1200)) {
+        order: 1;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
     .smallTitle {
         @include adaptiveValue('font-size', 60, 25);
         margin-bottom: 10px;
@@ -623,11 +632,7 @@ section.reviews .reviews__slider {
         z-index: 50;
         margin-top: 20px;
     }
-    @media (max-width: toEm(1200)) {
-        order: 1;
-        margin-bottom: 30px;
-        padding-left: 0;
-    }
+    
     .block-title {
         margin-bottom: 0;
     }
@@ -906,7 +911,7 @@ section.reviews .reviews__slider {
         @include adaptiveValue('padding-left', 62, 15);
         @media (max-width: toEm(900)) {
             padding-left: 0;
-            justify-content: end;
+            justify-content: center;
         }
     }
     .block-title {
@@ -947,7 +952,7 @@ section.reviews .reviews__slider {
         @include adaptiveValue('font-size', 20, 13);
     }
     @media (max-width: toEm(900)) {
-        width: 80%;
+        width: 100%;
     }
     img {
         position: relative;
