@@ -3,19 +3,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="preload" href="/vin-rouge/assets/fonts/Brand.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-		<!-- <link rel="shortcut icon" href="@img/favicon.ico"> -->
+		<link rel="preload" href="/assets/fonts/Brand.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<title>Vin Rouge</title>
-		<script type="module" crossorigin="" src="/vin-rouge/js/index.min.js?v=1782228448899"></script>
-		<link rel="modulepreload" crossorigin="" href="/vin-rouge/js/common.min.js?v=1782228448899">
-		<link rel="stylesheet" crossorigin="" href="/vin-rouge/css/index.min.css?v=1782228448899">
+		<script type="module" crossorigin="" src="/js/index.min.js?v=1782468623967"></script>
+		<link rel="modulepreload" crossorigin="" href="/js/common.min.js?v=1782468623967">
+		<link rel="stylesheet" crossorigin="" href="/css/index.min.css?v=1782468623967">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" class="header">
 				<div class="header__container">
 					<div class="header__logo">
-						<img src="/vin-rouge/assets/img/logo/logo.png" alt="logo vin rouge">
+						<picture>
+							<img alt="logo vin rouge" src="./assets/img/logo/logo.webp">
+						</picture>
 					</div>
 					<div class="header__menu menu">
 						<nav class="menu__body">
@@ -43,10 +44,10 @@
 -->
 					<div class="header__actions">
 						<button class="header-btn header-btn--user">
-							<img src="/vin-rouge/assets/img/header-icons/user-icon.svg" alt="user icon">
+							<img src="/assets/img/header-icons/user-icon.svg" alt="user icon">
 						</button>
 						<button class="header-btn header-btn--cart">
-							<img src="/vin-rouge/assets/img/header-icons/cart-icon.svg" alt="cart icon">
+							<img src="/assets/img/header-icons/cart-icon.svg" alt="cart icon">
 						</button>
 						<div class="btn-burger header-btn">
 							<button type="button header-btn" data-fls-menu="" class="menu__icon icon-menu">
@@ -67,7 +68,10 @@
 								<a class="button button--hero" data-fls-button="">SEE HOW IT MADE</a>
 							</div>
 							<div class="hero__image">
-								<img src="/vin-rouge/assets/img/hero-images/Artwork.png" alt="bottle of wine">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/hero-images/Artwork-600.webp" type="image/webp">
+									<img alt="bottle of wine" src="./assets/img/hero-images/Artwork.webp">
+								</picture>
 							</div>
 						</div>
 					</section>
@@ -113,16 +117,22 @@
     roots, combining heritage with modern techniques. Today, every bottle
     we create carries the story of our origins, shaped by time, care, and
     an uncompromising pursuit of excellence.
-										<button class="button" data-fls-button="">see more</button>
 									</p>
+									<button class="button" data-fls-button="">see more</button>
 								</div>
 							</div>
 							<div class="history__image image-history">
 								<div class="image-history__landscape">
-									<img src="/vin-rouge/assets/img/history/landscape.png" alt="Tuscany landscape">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/history/landscape-600.webp" type="image/webp">
+										<img alt="Tuscany landscape" src="./assets/img/history/landscape.webp">
+									</picture>
 								</div>
 								<div class="image-history__vineyard">
-									<img src="/vin-rouge/assets/img/history/vineyard.jpg" alt="vineyard">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/history/vineyard-600.webp" type="image/webp">
+										<img alt="vineyard" src="./assets/img/history/vineyard.webp">
+									</picture>
 								</div>
 								<p class="image-history__text">Where our story begins</p>
 							</div>
@@ -136,7 +146,9 @@
 								<p class="content__text">Rich taste experience</p>
 							</div>
 							<div class="wine-card__image">
-								<img src="/vin-rouge/assets/img/wine-card/wine.png" alt="bottle of wine">
+								<picture>
+									<img alt="bottle of wine" src="./assets/img/wine-card/wine.webp">
+								</picture>
 							</div>
 						</article>
 						<article class="wine-card">
@@ -146,7 +158,7 @@
 								<p class="content__text">Moments to savo.</p>
 							</div>
 							<div class="wine-card__image">
-								<img src="/vin-rouge/assets/img/wine-card/glass%20of%20wine.png" alt="glass of wine">
+								<img src="/assets/img/wine-card/glass%20of%20wine.png" alt="glass of wine">
 							</div>
 						</article>
 						<article class="wine-card">
@@ -156,7 +168,9 @@
 								<p class="content__text">Pure vineyard essence.</p>
 							</div>
 							<div class="wine-card__image">
-								<img src="/vin-rouge/assets/img/wine-card/grape.png" alt="grape">
+								<picture>
+									<img alt="grape" src="./assets/img/wine-card/grape.webp">
+								</picture>
 							</div>
 						</article>
 						<article class="wine-card">
@@ -166,7 +180,9 @@
 								<p class="content__text">Refined presentation styl.</p>
 							</div>
 							<div class="wine-card__image">
-								<img src="/vin-rouge/assets/img/wine-card/packaging.png" alt="packaging">
+								<picture>
+									<img alt="packaging" src="./assets/img/wine-card/packaging.webp">
+								</picture>
 							</div>
 						</article>
 					</section>
@@ -319,7 +335,7 @@
 										<div data-fls-reviews-item="" class="reviews-item">
 											<div class="review__content content-review">
 												<div class="content-review__decor">
-													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+													<img src="/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
 												</div>
 												<p class="content-review__text">A refined taste that brings elegance
     to every occasion.</p>
@@ -328,10 +344,15 @@
 											</div>
 											<div class="review__image image-review">
 												<div class="image-review__ellipse">
-													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+													<picture>
+														<img alt="" src="./assets/img/reviews/Ellipse.webp">
+													</picture>
 												</div>
 												<div class="image-review__img">
-													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/reviews/author-review-600.webp" type="image/webp">
+														<img alt="author's photo" src="./assets/img/reviews/author-review.webp">
+													</picture>
 												</div>
 											</div>
 										</div>
@@ -341,7 +362,7 @@
 										<div data-fls-reviews-item="" class="reviews-item">
 											<div class="review__content content-review">
 												<div class="content-review__decor">
-													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+													<img src="/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
 												</div>
 												<p class="content-review__text">A refined taste that brings elegance
     to every occasion.</p>
@@ -350,10 +371,15 @@
 											</div>
 											<div class="review__image image-review">
 												<div class="image-review__ellipse">
-													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+													<picture>
+														<img alt="" src="./assets/img/reviews/Ellipse.webp">
+													</picture>
 												</div>
 												<div class="image-review__img">
-													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/reviews/author-review-600.webp" type="image/webp">
+														<img alt="author's photo" src="./assets/img/reviews/author-review.webp">
+													</picture>
 												</div>
 											</div>
 										</div>
@@ -363,7 +389,7 @@
 										<div data-fls-reviews-item="" class="reviews-item">
 											<div class="review__content content-review">
 												<div class="content-review__decor">
-													<img src="/vin-rouge/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
+													<img src="/assets/img/reviews/decor-icon.svg" alt="" class="decor-icon">
 												</div>
 												<p class="content-review__text">A refined taste that brings elegance
     to every occasion.</p>
@@ -372,10 +398,15 @@
 											</div>
 											<div class="review__image image-review">
 												<div class="image-review__ellipse">
-													<img src="/vin-rouge/assets/img/reviews/Ellipse.png" alt="">
+													<picture>
+														<img alt="" src="./assets/img/reviews/Ellipse.webp">
+													</picture>
 												</div>
 												<div class="image-review__img">
-													<img src="/vin-rouge/assets/img/reviews/author-review.png" alt="author's photo">
+													<picture>
+														<source media="(max-width: 600px)" srcset="./assets/img/reviews/author-review-600.webp" type="image/webp">
+														<img alt="author's photo" src="./assets/img/reviews/author-review.webp">
+													</picture>
 												</div>
 											</div>
 										</div>
@@ -399,22 +430,34 @@
 							</div>
 							<div class="naturalAuroma__images">
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/01.jpg" alt="Hands picking grapes in a vineyard">
+									<picture>
+										<img alt="Hands picking grapes in a vineyard" src="./assets/img/naturalAuroma/01.webp">
+									</picture>
 								</div>
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/02.jpg" alt="A woman walking through a vineyard">
+									<picture>
+										<img alt="A woman walking through a vineyard" src="./assets/img/naturalAuroma/02.webp">
+									</picture>
 								</div>
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/03.jpg" alt="Hanging bunches of grapes">
+									<picture>
+										<img alt="Hanging bunches of grapes" src="./assets/img/naturalAuroma/03.webp">
+									</picture>
 								</div>
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/04.jpg" alt="Wine bottles standing on a wine barrel">
+									<picture>
+										<img alt="Wine bottles standing on a wine barrel" src="./assets/img/naturalAuroma/04.webp">
+									</picture>
 								</div>
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/05.jpg" alt="Hands holding grapes">
+									<picture>
+										<img alt="Hands holding grapes" src="./assets/img/naturalAuroma/05.webp">
+									</picture>
 								</div>
 								<div class="image-naturalAuroma__wrapper">
-									<img src="/vin-rouge/assets/img/naturalAuroma/06.jpg" alt="People clinking wine glasses">
+									<picture>
+										<img alt="People clinking wine glasses" src="./assets/img/naturalAuroma/06.webp">
+									</picture>
 								</div>
 							</div>
 							<div class="naturalAuroma__content">
@@ -504,7 +547,11 @@
 							</div>
 						</div>
 						<div class="naturalAuroma__img">
-							<img src="/vin-rouge/assets/img/naturalAuroma/vineyard.jpg" alt="vineyard">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/naturalAuroma/vineyard-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/naturalAuroma/vineyard-1200.webp" type="image/webp">
+								<img alt="vineyard" src="./assets/img/naturalAuroma/vineyard.webp">
+							</picture>
 							<div class="wine-item__title">
 								<h4 class="vineyard-title">OUR VINEYARD</h4>
 								<p class="vineyard-subtitlet">The soul of our wine.</p>
@@ -520,7 +567,7 @@
 							<div class="wineProduction__producers">
 								<article class="wine-producer">
 									<div class="wine-producer__img">
-										<img src="/vin-rouge/assets/img/wine%20producers/cavaco.jpg" alt="wine producer photo ANTIA CAVACO">
+										<img src="/assets/img/wine%20producers/cavaco.jpg" alt="wine producer photo ANTIA CAVACO">
 									</div>
 									<div class="wine-item__title">
 										<h4 class="wine-name">ANTIA CAVACO</h4>
@@ -552,7 +599,7 @@
 								</article>
 								<article class="wine-producer">
 									<div class="wine-producer__img">
-										<img src="/vin-rouge/assets/img/wine%20producers/amiro.jpg" alt="wine producer photo AMIRO SIVESTRE">
+										<img src="/assets/img/wine%20producers/amiro.jpg" alt="wine producer photo AMIRO SIVESTRE">
 									</div>
 									<div class="wine-item__title">
 										<h4 class="wine-name">AMIRO SIVESTRE</h4>
@@ -581,7 +628,7 @@
 								</article>
 								<article class="wine-producer">
 									<div class="wine-producer__img">
-										<img src="/vin-rouge/assets/img/wine%20producers/branca.jpg" alt="wine producer photo BRANCA ALVA">
+										<img src="/assets/img/wine%20producers/branca.jpg" alt="wine producer photo BRANCA ALVA">
 									</div>
 									<div class="wine-item__title">
 										<h4 class="wine-name">BRANCA ALVA</h4>
@@ -610,7 +657,7 @@
 								</article>
 								<article class="wine-producer">
 									<div class="wine-producer__img">
-										<img src="/vin-rouge/assets/img/wine%20producers/valetin.jpg" alt="wine producer photo VALETIN EATON">
+										<img src="/assets/img/wine%20producers/valetin.jpg" alt="wine producer photo VALETIN EATON">
 									</div>
 									<div class="wine-item__title">
 										<h4 class="wine-name">VALETIN EATON</h4>
@@ -686,7 +733,10 @@
 							</div>
 							<div class="knowing__image image-knowing">
 								<div class="image-knowing__wrapper">
-									<img src="/vin-rouge/assets/img/knowing/map.png" alt="geographical map">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/knowing/map-600.webp" type="image/webp">
+										<img alt="geographical map" src="./assets/img/knowing/map.webp">
+									</picture>
 								</div>
 							</div>
 						</div>
@@ -700,9 +750,13 @@
 							<div class="vineyardEvents__body">
 								<div class="vineyardEvents__content">
 									<article class="event-card">
-										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-aperitiv.png" alt="">
+										<picture>
+											<img class="background-drink" alt="" src="./assets/img/vineyardEvents/bg-aperitiv.webp">
+										</picture>
 										<div class="event-card__image">
-											<img src="/vin-rouge/assets/img/naturalAuroma/06.jpg" alt="people with glasses of wine">
+											<picture>
+												<img alt="people with glasses of wine" src="./assets/img/naturalAuroma/06.webp">
+											</picture>
 										</div>
 										<div class="event-card__information">
 											<h4 class="event-title">APERITIV</h4>
@@ -735,9 +789,13 @@
 										</div>
 									</article>
 									<article class="event-card">
-										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-drink.png" alt="people with glasses of wine">
+										<picture>
+											<img class="background-drink" alt="people with glasses of wine" src="./assets/img/vineyardEvents/bg-drink.webp">
+										</picture>
 										<div class="event-card__image">
-											<img src="/vin-rouge/assets/img/naturalAuroma/03.jpg" alt="Hanging bunches of grapes">
+											<picture>
+												<img alt="Hanging bunches of grapes" src="./assets/img/naturalAuroma/03.webp">
+											</picture>
 										</div>
 										<div class="event-card__information">
 											<h4 class="event-title">DRINK’S ORIGIN</h4>
@@ -770,9 +828,13 @@
 										</div>
 									</article>
 									<article class="event-card">
-										<img class="background-drink" src="/vin-rouge/assets/img/vineyardEvents/bg-tour.png" alt="people with glasses of wine">
+										<picture>
+											<img class="background-drink" alt="people with glasses of wine" src="./assets/img/vineyardEvents/bg-tour.webp">
+										</picture>
 										<div class="event-card__image">
-											<img src="/vin-rouge/assets/img/naturalAuroma/02.jpg" alt="A woman walking through a vineyard">
+											<picture>
+												<img alt="A woman walking through a vineyard" src="./assets/img/naturalAuroma/02.webp">
+											</picture>
 										</div>
 										<div class="event-card__information">
 											<h4 class="event-title">WINE TOUR</h4>
@@ -807,7 +869,9 @@
 								</div>
 								<div class="vineyardEvents__image image-vineyardEvents">
 									<div class="image-vineyardEvents__wrapper">
-										<img src="/vin-rouge/assets/img/vineyardEvents/cellar.png" alt="cellar">
+										<picture>
+											<img alt="cellar" src="./assets/img/vineyardEvents/cellar.webp">
+										</picture>
 									</div>
 								</div>
 							</div>
@@ -815,7 +879,7 @@
 					</section>
 					<section class="newsletter">
 						<div class="newsletter__image">
-							<img src="/vin-rouge/assets/img/newsletter/bottle%20of%20wine.png" alt="bottle of wine">
+							<img src="/assets/img/newsletter/bottle%20of%20wine.png" alt="bottle of wine">
 						</div>
 						<div class="newsletter__content content-newsletter">
 							<h5 class="content-newsletter__title">NEWSLETTER</h5>
@@ -838,28 +902,28 @@
 							</div>
 							<div class="lovingClient__body">
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/arrows.svg" alt="brand logo arrows">
+									<img src="/assets/img/lovingClient/arrows.svg" alt="brand logo arrows">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/wine-list.svg" alt="wine list brand">
+									<img src="/assets/img/lovingClient/wine-list.svg" alt="wine list brand">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/nosoreno.svg" alt="Nosoreno wine brand">
+									<img src="/assets/img/lovingClient/nosoreno.svg" alt="Nosoreno wine brand">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/glass%20of%20wine.svg" alt="wine glass company logo">
+									<img src="/assets/img/lovingClient/glass%20of%20wine.svg" alt="wine glass company logo">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/wine%20club.svg" alt="wine club partner logo">
+									<img src="/assets/img/lovingClient/wine%20club.svg" alt="wine club partner logo">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/fd.svg" alt="FD brand logo">
+									<img src="/assets/img/lovingClient/fd.svg" alt="FD brand logo">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/bignest%20quality.svg" alt="premium quality brand log">
+									<img src="/assets/img/lovingClient/bignest%20quality.svg" alt="premium quality brand log">
 								</div>
 								<div class="lovingClient__item">
-									<img src="/vin-rouge/assets/img/lovingClient/vineyard.svg" alt="vineyard partner logo">
+									<img src="/assets/img/lovingClient/vineyard.svg" alt="vineyard partner logo">
 								</div>
 							</div>
 						</div>
@@ -870,7 +934,9 @@
 				<div class="footer__container">
 					<div class="footer__body body-footer">
 						<div class="body-footer__logo">
-							<img src="/vin-rouge/assets/img/footer/Logo.png" alt="Vin Rouge logo">
+							<picture>
+								<img alt="Vin Rouge logo" src="./assets/img/footer/Logo.webp">
+							</picture>
 						</div>
 						<div class="body-footer__content">
 							<div class="footer__contact contact-footer">
