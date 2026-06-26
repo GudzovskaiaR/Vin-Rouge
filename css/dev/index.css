@@ -1506,6 +1506,7 @@ section.reviews .reviews__slider {
   z-index: 100;
   backdrop-filter: blur(0.625rem);
   background: rgba(255, 255, 255, 0.2);
+  background-color: transparent;
 }
 .header__container {
   display: flex;
